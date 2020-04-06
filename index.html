@@ -1,0 +1,2803 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+path {
+  stroke: #fff;
+}
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var nodeData = {
+    "name": "Style", "children": 
+    [
+    {
+        "name": "Pack",
+        "children": [
+        {
+            "name": "Nissin",
+            "values": "139"
+        },
+        {
+            "name": "Samyang Foods",
+            "values": "57"
+        },
+        {
+            "name": "Nongshim",
+            "values": "56"
+        },
+        {
+            "name": "Indomie",
+            "values": "49"
+        },
+        {
+            "name": "Mama",
+            "values": "48"
+        },
+        {
+            "name": "Paldo",
+            "values": "42"
+        },
+        {
+            "name": "Myojo",
+            "values": "41"
+        },
+        {
+            "name": "Maruchan",
+            "values": "36"
+        },
+        {
+            "name": "Maggi",
+            "values": "34"
+        },
+        {
+            "name": "Ottogi",
+            "values": "33"
+        },
+        {
+            "name": "Vina Acecook",
+            "values": "28"
+        },
+        {
+            "name": "MAMA",
+            "values": "25"
+        },
+        {
+            "name": "Vifon",
+            "values": "25"
+        },
+        {
+            "name": "Wu-Mu",
+            "values": "23"
+        },
+        {
+            "name": "A-Sha Dry Noodle",
+            "values": "23"
+        },
+        {
+            "name": "Lucky Me!",
+            "values": "23"
+        },
+        {
+            "name": "Master Kong",
+            "values": "22"
+        },
+        {
+            "name": "Wai Wai",
+            "values": "22"
+        },
+        {
+            "name": "KOKA",
+            "values": "21"
+        },
+        {
+            "name": "Wei Lih",
+            "values": "20"
+        },
+        {
+            "name": "Mamee",
+            "values": "20"
+        },
+        {
+            "name": "MyKuali",
+            "values": "19"
+        },
+        {
+            "name": "Ve Wong",
+            "values": "18"
+        },
+        {
+            "name": "Itsuki",
+            "values": "16"
+        },
+        {
+            "name": "Sapporo Ichiban",
+            "values": "16"
+        },
+        {
+            "name": "Yum Yum",
+            "values": "15"
+        },
+        {
+            "name": "Vedan",
+            "values": "15"
+        },
+        {
+            "name": "Sau Tao",
+            "values": "14"
+        },
+        {
+            "name": "JML",
+            "values": "14"
+        },
+        {
+            "name": "Asian Thai Foods",
+            "values": "14"
+        },
+        {
+            "name": "Takamori Kosan",
+            "values": "14"
+        },
+        {
+            "name": "Batchelors",
+            "values": "14"
+        },
+        {
+            "name": "Samyang",
+            "values": "14"
+        },
+        {
+            "name": "Doll",
+            "values": "13"
+        },
+        {
+            "name": "Vit's",
+            "values": "13"
+        },
+        {
+            "name": "Koka",
+            "values": "13"
+        },
+        {
+            "name": "Deshome",
+            "values": "13"
+        },
+        {
+            "name": "Yamachan",
+            "values": "12"
+        },
+        {
+            "name": "Prima Taste",
+            "values": "11"
+        },
+        {
+            "name": "Sakurai Foods",
+            "values": "11"
+        },
+        {
+            "name": "Unif / Tung-I",
+            "values": "11"
+        },
+        {
+            "name": "Nissin Miojo",
+            "values": "10"
+        },
+        {
+            "name": "Mi Sedaap",
+            "values": "10"
+        },
+        {
+            "name": "Ibumie",
+            "values": "10"
+        },
+        {
+            "name": "Amianda",
+            "values": "10"
+        },
+        {
+            "name": "Sichuan Baijia",
+            "values": "9"
+        },
+        {
+            "name": "Ko-Lee",
+            "values": "9"
+        },
+        {
+            "name": "Marutai",
+            "values": "8"
+        },
+        {
+            "name": "Vite Ramen",
+            "values": "8"
+        },
+        {
+            "name": "Kenko Foods",
+            "values": "8"
+        },
+        {
+            "name": "Mom's Dry Noodle",
+            "values": "8"
+        },
+        {
+            "name": "Tseng Noodles",
+            "values": "8"
+        },
+        {
+            "name": "Wu Mu",
+            "values": "8"
+        },
+        {
+            "name": "Nona Lim",
+            "values": "8"
+        },
+        {
+            "name": "Shirakiku",
+            "values": "8"
+        },
+        {
+            "name": "Pulmuone",
+            "values": "8"
+        },
+        {
+            "name": "Fuku",
+            "values": "8"
+        },
+        {
+            "name": "Jingqi",
+            "values": "8"
+        },
+        {
+            "name": "Baijia",
+            "values": "8"
+        },
+        {
+            "name": "SuperMi",
+            "values": "8"
+        },
+        {
+            "name": "A-Sha",
+            "values": "7"
+        },
+        {
+            "name": "Payless",
+            "values": "7"
+        },
+        {
+            "name": "Itomen",
+            "values": "7"
+        },
+        {
+            "name": "Alhami",
+            "values": "7"
+        },
+        {
+            "name": "Fujiwara",
+            "values": "7"
+        },
+        {
+            "name": "Knorr",
+            "values": "7"
+        },
+        {
+            "name": "CarJEN",
+            "values": "7"
+        },
+        {
+            "name": "Koyo",
+            "values": "7"
+        },
+        {
+            "name": "Sarimi",
+            "values": "7"
+        },
+        {
+            "name": "Mr. Noodles",
+            "values": "7"
+        },
+        {
+            "name": "TTL",
+            "values": "6"
+        },
+        {
+            "name": "Mike's Mighty Good Craft Ramen",
+            "values": "6"
+        },
+        {
+            "name": "Mr. Noodle",
+            "values": "6"
+        },
+        {
+            "name": "Maitri",
+            "values": "6"
+        },
+        {
+            "name": "Uni-President",
+            "values": "6"
+        },
+        {
+            "name": "Unox",
+            "values": "6"
+        },
+        {
+            "name": "Wugudaochang",
+            "values": "6"
+        },
+        {
+            "name": "Ruski",
+            "values": "6"
+        },
+        {
+            "name": "Chewy",
+            "values": "6"
+        },
+        {
+            "name": "Unif",
+            "values": "6"
+        },
+        {
+            "name": "GaGa",
+            "values": "6"
+        },
+        {
+            "name": "ABC",
+            "values": "6"
+        },
+        {
+            "name": "Kamfen",
+            "values": "6"
+        },
+        {
+            "name": "Tasty Bite",
+            "values": "6"
+        },
+        {
+            "name": "Dragonfly",
+            "values": "6"
+        },
+        {
+            "name": "Six Fortune",
+            "values": "6"
+        },
+        {
+            "name": "Saigon Ve Wong",
+            "values": "6"
+        },
+        {
+            "name": "Mama Pat's",
+            "values": "5"
+        },
+        {
+            "name": "Red Chef",
+            "values": "5"
+        },
+        {
+            "name": "Canton",
+            "values": "5"
+        },
+        {
+            "name": "Little Couples Q Noodle",
+            "values": "5"
+        },
+        {
+            "name": "Ching's Secret",
+            "values": "5"
+        },
+        {
+            "name": "Kang Shi Fu",
+            "values": "5"
+        },
+        {
+            "name": "Cintan",
+            "values": "5"
+        },
+        {
+            "name": "Love Cook",
+            "values": "5"
+        },
+        {
+            "name": "MyOri",
+            "values": "5"
+        },
+        {
+            "name": "Chering Chang",
+            "values": "5"
+        },
+        {
+            "name": "Baixiang Noodles",
+            "values": "5"
+        },
+        {
+            "name": "Shan",
+            "values": "5"
+        },
+        {
+            "name": "Mi E-Zee",
+            "values": "5"
+        },
+        {
+            "name": "Sainsbury's",
+            "values": "5"
+        },
+        {
+            "name": "Annie Chun's",
+            "values": "5"
+        },
+        {
+            "name": "Sakura Noodle",
+            "values": "5"
+        },
+        {
+            "name": "Golden Wheat",
+            "values": "5"
+        },
+        {
+            "name": "HoMyeonDang",
+            "values": "5"
+        },
+        {
+            "name": "Thai Kitchen",
+            "values": "5"
+        },
+        {
+            "name": "Ramen Hero",
+            "values": "4"
+        },
+        {
+            "name": "Big Bon",
+            "values": "4"
+        },
+        {
+            "name": "Hakubaku",
+            "values": "4"
+        },
+        {
+            "name": "Uncle Sun",
+            "values": "4"
+        },
+        {
+            "name": "Xiao Ban Mian",
+            "values": "4"
+        },
+        {
+            "name": "San-Iku",
+            "values": "4"
+        },
+        {
+            "name": "Three Meters Noodles",
+            "values": "4"
+        },
+        {
+            "name": "Prima",
+            "values": "4"
+        },
+        {
+            "name": "Tokyo Noodle",
+            "values": "4"
+        },
+        {
+            "name": "Super Bihun",
+            "values": "4"
+        },
+        {
+            "name": "Four Seas",
+            "values": "4"
+        },
+        {
+            "name": "Great Value",
+            "values": "4"
+        },
+        {
+            "name": "Oni Hot Pot",
+            "values": "4"
+        },
+        {
+            "name": "Trident",
+            "values": "4"
+        },
+        {
+            "name": "Koh Thai",
+            "values": "4"
+        },
+        {
+            "name": "Bamee",
+            "values": "4"
+        },
+        {
+            "name": "Fortune",
+            "values": "4"
+        },
+        {
+            "name": "Bonasia",
+            "values": "4"
+        },
+        {
+            "name": "iMee",
+            "values": "4"
+        },
+        {
+            "name": "Asia Gold",
+            "values": "4"
+        },
+        {
+            "name": "Forest Noodles",
+            "values": "4"
+        },
+        {
+            "name": "Thai Chef",
+            "values": "4"
+        },
+        {
+            "name": "Hao Way",
+            "values": "4"
+        },
+        {
+            "name": "Emart",
+            "values": "4"
+        },
+        {
+            "name": "Oyatsu",
+            "values": "4"
+        },
+        {
+            "name": "Adabi",
+            "values": "4"
+        },
+        {
+            "name": "Sawadee",
+            "values": "4"
+        },
+        {
+            "name": "GreeNoodle",
+            "values": "4"
+        },
+        {
+            "name": "Mr. Udon",
+            "values": "4"
+        },
+        {
+            "name": "Quickchow",
+            "values": "4"
+        },
+        {
+            "name": "Gefen",
+            "values": "3"
+        },
+        {
+            "name": "Pan Mee",
+            "values": "3"
+        },
+        {
+            "name": "Aji-no-men",
+            "values": "3"
+        },
+        {
+            "name": "No Name",
+            "values": "3"
+        },
+        {
+            "name": "Rooster",
+            "values": "3"
+        },
+        {
+            "name": "Buitoni",
+            "values": "3"
+        },
+        {
+            "name": "Nagatanien",
+            "values": "3"
+        },
+        {
+            "name": "Fu Chung",
+            "values": "3"
+        },
+        {
+            "name": "Lee Fah Mee",
+            "values": "3"
+        },
+        {
+            "name": "Best Wok",
+            "values": "3"
+        },
+        {
+            "name": "Myramen",
+            "values": "3"
+        },
+        {
+            "name": "Meimen",
+            "values": "3"
+        },
+        {
+            "name": "Mikka",
+            "values": "3"
+        },
+        {
+            "name": "Ripe'n'Dry",
+            "values": "3"
+        },
+        {
+            "name": "Binh Tay",
+            "values": "3"
+        },
+        {
+            "name": "Happy Cook",
+            "values": "3"
+        },
+        {
+            "name": "E-Zee",
+            "values": "3"
+        },
+        {
+            "name": "A1",
+            "values": "3"
+        },
+        {
+            "name": "Pirkka",
+            "values": "3"
+        },
+        {
+            "name": "Kuriki",
+            "values": "3"
+        },
+        {
+            "name": "Western Family",
+            "values": "3"
+        },
+        {
+            "name": "Paldo Vina",
+            "values": "3"
+        },
+        {
+            "name": "United",
+            "values": "3"
+        },
+        {
+            "name": "Pop Bihun",
+            "values": "3"
+        },
+        {
+            "name": "Lotus Foods",
+            "values": "3"
+        },
+        {
+            "name": "Amino",
+            "values": "3"
+        },
+        {
+            "name": "Golden Mie",
+            "values": "3"
+        },
+        {
+            "name": "Wei Wei",
+            "values": "3"
+        },
+    
+        {
+            "name": "Yatekomo",
+            "values": "2"
+        },
+        {
+            "name": "EDO Pack",
+            "values": "2"
+        },
+        {
+            "name": "Three Meters",
+            "values": "2"
+        },
+        {
+            "name": "Teishi",
+            "values": "2"
+        },
+        {
+            "name": "Mykuali",
+            "values": "2"
+        },
+        {
+            "name": "Samlip",
+            "values": "2"
+        },
+        {
+            "name": "FitMee",
+            "values": "2"
+        },
+        {
+            "name": "Tian Ling Ling",
+            "values": "2"
+        },
+        {
+            "name": "TIEasy",
+            "values": "2"
+        },
+        {
+            "name": "Fantastic Noodles",
+            "values": "2"
+        },
+        {
+            "name": "Kiki",
+            "values": "2"
+        },
+        {
+            "name": "LeeZen",
+            "values": "2"
+        },
+        {
+            "name": "World O Noodle",
+            "values": "2"
+        },
+        {
+            "name": "Gookmul",
+            "values": "2"
+        },
+        {
+            "name": "Acecook",
+            "values": "2"
+        },
+        {
+            "name": "Just Way",
+            "values": "2"
+        },
+        {
+            "name": "Ogasawara",
+            "values": "2"
+        },
+        {
+            "name": "Kiki Noodle",
+            "values": "2"
+        },
+        {
+            "name": "World O' Noodle",
+            "values": "2"
+        },
+        {
+            "name": "Ajinatori",
+            "values": "2"
+        },
+        {
+            "name": "Sichuan Guangyou",
+            "values": "2"
+        },
+        {
+            "name": "Pran",
+            "values": "2"
+        },
+        {
+            "name": "Nyor Nyar",
+            "values": "2"
+        },
+        {
+            "name": "Roland",
+            "values": "2"
+        },
+        {
+            "name": "Happy Family",
+            "values": "2"
+        },
+        {
+            "name": "Tokushima Seifun",
+            "values": "2"
+        },
+        {
+            "name": "Pama",
+            "values": "2"
+        },
+        {
+            "name": "Conimex",
+            "values": "2"
+        },
+        {
+            "name": "Aroi",
+            "values": "2"
+        },
+        {
+            "name": "Salam Mie",
+            "values": "2"
+        },
+        {
+            "name": "The Kitchen Food",
+            "values": "2"
+        },
+        {
+            "name": "Premiere",
+            "values": "2"
+        },
+        {
+            "name": "Ah Lai",
+            "values": "2"
+        },
+        {
+            "name": "Tropicana Slim",
+            "values": "2"
+        },
+        {
+            "name": "Long Jun Hang",
+            "values": "2"
+        },
+        {
+            "name": "Unif-100",
+            "values": "2"
+        },
+        {
+            "name": "E-mi",
+            "values": "2"
+        },
+        {
+            "name": "J.J.",
+            "values": "2"
+        },
+        {
+            "name": "ICA",
+            "values": "2"
+        },
+        {
+            "name": "Nanyang Chef",
+            "values": "2"
+        },
+        {
+            "name": "Men-Sunaoshi",
+            "values": "2"
+        },
+        {
+            "name": "Saji",
+            "values": "2"
+        },
+        {
+            "name": "Tiger Tiger",
+            "values": "2"
+        },
+        {
+            "name": "Hi-Myon",
+            "values": "2"
+        },
+        {
+            "name": "Healtimie",
+            "values": "2"
+        },
+        {
+            "name": "GS25",
+            "values": "2"
+        },
+        {
+            "name": "Baltix",
+            "values": "2"
+        },
+        {
+            "name": "Tradition",
+            "values": "2"
+        },
+        {
+            "name": "FMF",
+            "values": "2"
+        },
+        {
+            "name": "Gau Do",
+            "values": "2"
+        },
+        {
+            "name": "Long Kow",
+            "values": "2"
+        },
+        {
+            "name": "Ohsung",
+            "values": "2"
+        },
+        {
+            "name": "Mug Shot",
+            "values": "2"
+        },
+        {
+            "name": "Wei Chuan",
+            "values": "2"
+        },
+        {
+            "name": "Yamamori",
+            "values": "2"
+        },
+        {
+            "name": "iNoodle",
+            "values": "2"
+        },
+        {
+            "name": "Gomex",
+            "values": "2"
+        },
+        {
+            "name": "Hua Feng Noodle Expert",
+            "values": "2"
+        },
+        {
+            "name": "Eight Field",
+            "values": "1"
+        },
+        {
+            "name": "Hikari Miso",
+            "values": "1"
+        },
+        {
+            "name": "Shun Savory",
+            "values": "1"
+        },
+        {
+            "name": "LMF",
+            "values": "1"
+        },
+        {
+            "name": "Shuang Ren Hsu",
+            "values": "1"
+        },
+        {
+            "name": "Tabate",
+            "values": "1"
+        },
+        {
+            "name": "Jongga",
+            "values": "1"
+        },
+        {
+            "name": "Zombear",
+            "values": "1"
+        },
+        {
+            "name": "Himawari-Shokuhin",
+            "values": "1"
+        },
+        {
+            "name": "Sanpo",
+            "values": "1"
+        },
+        {
+            "name": "Palkin",
+            "values": "1"
+        },
+        {
+            "name": "Haogemen",
+            "values": "1"
+        },
+        {
+            "name": "Soup Daren",
+            "values": "1"
+        },
+        {
+            "name": "Kuro Tetsuya",
+            "values": "1"
+        },
+        {
+            "name": "Shin Horng",
+            "values": "1"
+        },
+        {
+            "name": "Mitukura",
+            "values": "1"
+        },
+        {
+            "name": "Nakaki",
+            "values": "1"
+        },
+        {
+            "name": "Atomy",
+            "values": "1"
+        },
+        {
+            "name": "Easybab",
+            "values": "1"
+        },
+        {
+            "name": "Mamee / Shinsegae",
+            "values": "1"
+        },
+        {
+            "name": "Mazendo",
+            "values": "1"
+        },
+        {
+            "name": "Quero",
+            "values": "1"
+        },
+        {
+            "name": "Fukumen",
+            "values": "1"
+        },
+        {
+            "name": "Suraj",
+            "values": "1"
+        },
+        {
+            "name": "Double Mountain",
+            "values": "1"
+        },
+        {
+            "name": "Yi Lai Shuen",
+            "values": "1"
+        },
+        {
+            "name": "Daikoku",
+            "values": "1"
+        },
+        {
+            "name": "Burung Layang Terbang",
+            "values": "1"
+        },
+        {
+            "name": "Mivina",
+            "values": "1"
+        },
+        {
+            "name": "Mamee-Shinsegae",
+            "values": "1"
+        },
+        {
+            "name": "Chitato",
+            "values": "1"
+        },
+        {
+            "name": "Panco",
+            "values": "1"
+        },
+        {
+            "name": "Sunaoshi",
+            "values": "1"
+        },
+        {
+            "name": "New Touch",
+            "values": "1"
+        },
+        {
+            "name": "Mibena",
+            "values": "1"
+        },
+        {
+            "name": "Yamamoto",
+            "values": "1"
+        },
+        {
+            "name": "Bowlfull",
+            "values": "1"
+        },
+        {
+            "name": "Nissin-Miojo",
+            "values": "1"
+        },
+        {
+            "name": "Rollton",
+            "values": "1"
+        },
+        {
+            "name": "Lemonilo",
+            "values": "1"
+        },
+        {
+            "name": "Saikebon",
+            "values": "1"
+        },
+        {
+            "name": "Fox",
+            "values": "1"
+        },
+        {
+            "name": "Neko",
+            "values": "1"
+        },
+        {
+            "name": "Sugakiya",
+            "values": "1"
+        },
+        {
+            "name": "Taihodien Restaurant",
+            "values": "1"
+        },
+        {
+            "name": "Miandom",
+            "values": "1"
+        },
+        {
+            "name": "Ped Chef",
+            "values": "1"
+        },
+        {
+            "name": "Jinbo Selection",
+            "values": "1"
+        },
+        {
+            "name": "No Brand",
+            "values": "1"
+        },
+        {
+            "name": "Qinsheng",
+            "values": "1"
+        },
+        {
+            "name": "Ichiran Ramen",
+            "values": "1"
+        },
+        {
+            "name": "Qicaiyuan",
+            "values": "1"
+        },
+        {
+            "name": "Village Vanguard",
+            "values": "1"
+        },
+        {
+            "name": "Happy Noodle",
+            "values": "1"
+        },
+        {
+            "name": "Nanoblock",
+            "values": "1"
+        },
+        {
+            "name": "Isoyama Shoji",
+            "values": "1"
+        },
+        {
+            "name": "Tseng Noodle",
+            "values": "1"
+        },
+        {
+            "name": "Sunfeast",
+            "values": "1"
+        },
+        {
+            "name": "Tao Kae Noi",
+            "values": "1"
+        },
+        {
+            "name": "TRDP",
+            "values": "1"
+        },
+        {
+            "name": "Jackpot Teriyaki",
+            "values": "1"
+        },
+        {
+            "name": "Yum-Mie",
+            "values": "1"
+        },
+        {
+            "name": "Lele",
+            "values": "1"
+        },
+        {
+            "name": "Sokensha",
+            "values": "1"
+        },
+        {
+            "name": "Takamori",
+            "values": "1"
+        },
+        {
+            "name": "Samurai Ramen",
+            "values": "1"
+        },
+        {
+            "name": "GGE",
+            "values": "1"
+        },
+        {
+            "name": "Mum Ngon",
+            "values": "1"
+        },
+        {
+            "name": "Hua Feng",
+            "values": "1"
+        },
+        {
+            "name": "1 To 3 Noodles",
+            "values": "1"
+        },
+        {
+            "name": "Sempio",
+            "values": "1"
+        },
+        {
+            "name": "Patanjali",
+            "values": "1"
+        },
+        {
+            "name": "Qin Zong",
+            "values": "1"
+        },
+        {
+            "name": "Unif Tung-I",
+            "values": "1"
+        },
+        {
+            "name": "Morre",
+            "values": "1"
+        },
+        {
+            "name": "Choumama",
+            "values": "1"
+        },
+        {
+            "name": "La Moderna",
+            "values": "1"
+        },
+        {
+            "name": "Thien Houng Foods",
+            "values": "1"
+        },
+        {
+            "name": "Weh Lih",
+            "values": "1"
+        },
+        {
+            "name": "Zow Zow",
+            "values": "1"
+        },
+        {
+            "name": "Migawon",
+            "values": "1"
+        },
+        {
+            "name": "Chaudhary's Wai Wai",
+            "values": "1"
+        },
+        {
+            "name": "Higashimaru",
+            "values": "1"
+        },
+        {
+            "name": "Daraz",
+            "values": "1"
+        },
+        {
+            "name": "Nakaya Shouten",
+            "values": "1"
+        },
+        {
+            "name": "Azami",
+            "values": "1"
+        },
+        {
+            "name": "Torishi",
+            "values": "1"
+        },
+        {
+            "name": "Ishimaru",
+            "values": "1"
+        },
+        {
+            "name": "Lishan Food Manufacturing",
+            "values": "1"
+        },
+        {
+            "name": "Hankow",
+            "values": "1"
+        },
+        {
+            "name": "The Bridge",
+            "values": "1"
+        },
+        {
+            "name": "Mitoku",
+            "values": "1"
+        },
+        {
+            "name": "Unzen",
+            "values": "1"
+        },
+        {
+            "name": "Curry Prince",
+            "values": "1"
+        },
+        {
+            "name": "Econsave",
+            "values": "1"
+        },
+        {
+            "name": "Miliket",
+            "values": "1"
+        },
+        {
+            "name": "Katoz",
+            "values": "1"
+        },
+        {
+            "name": "La Fonte",
+            "values": "1"
+        },
+        {
+            "name": "Miracle Noodle",
+            "values": "1"
+        },
+        {
+            "name": "Papa",
+            "values": "1"
+        },
+        {
+            "name": "Kimura",
+            "values": "1"
+        },
+        {
+            "name": "President",
+            "values": "1"
+        },
+        {
+            "name": "Tesco",
+            "values": "1"
+        },
+        {
+            "name": "Kumamoto",
+            "values": "1"
+        },
+        {
+            "name": "China Best",
+            "values": "1"
+        },
+        {
+            "name": "Sugakiya Foods",
+            "values": "1"
+        },
+        {
+            "name": "Tablemark",
+            "values": "1"
+        },
+        {
+            "name": "Nagao Noodle",
+            "values": "1"
+        },
+        {
+            "name": "Star Anise Foods",
+            "values": "1"
+        },
+        {
+            "name": "S&S",
+            "values": "1"
+        },
+        {
+            "name": "Sun Noodle",
+            "values": "1"
+        },
+        {
+            "name": "Springlife",
+            "values": "1"
+        },
+        {
+            "name": "Daddy",
+            "values": "1"
+        },
+        {
+            "name": "Kailo",
+            "values": "1"
+        },
+        {
+            "name": "Lishan",
+            "values": "1"
+        },
+        {
+            "name": "Cap Atoom Bulan",
+            "values": "1"
+        },
+        {
+            "name": "Omachi",
+            "values": "1"
+        },
+        {
+            "name": "Sunlight",
+            "values": "1"
+        },
+        {
+            "name": "Sahmyook",
+            "values": "1"
+        },
+        {
+            "name": "Mexi-Ramen",
+            "values": "1"
+        },
+        {
+            "name": "Hsin Tung Yang",
+            "values": "1"
+        },
+        {
+            "name": "Chikara",
+            "values": "1"
+        },
+        {
+            "name": "Q",
+            "values": "1"
+        },
+        {
+            "name": "Souper",
+            "values": "1"
+        },
+        {
+            "name": "Sunny Maid",
+            "values": "1"
+        },
+        {
+            "name": "Rocket Brand",
+            "values": "1"
+        },
+        {
+            "name": "Sao Tao",
+            "values": "1"
+        },
+        {
+            "name": "Higashi",
+            "values": "1"
+        },
+        {
+            "name": "Sakurai",
+            "values": "1"
+        },
+        {
+            "name": "Smack",
+            "values": "1"
+        },
+        {
+            "name": "Tung-I",
+            "values": "1"
+        },
+        {
+            "name": "Westbrae",
+            "values": "1"
+        }
+        ]
+    },
+    {
+        "name": "Bowl",
+        "children": [
+        {
+            "name": "Nissin",
+            "values": "85"
+        },
+        {
+            "name": "Maruchan",
+            "values": "37"
+        },
+        {
+            "name": "Nongshim",
+            "values": "33"
+        },
+        {
+            "name": "Myojo",
+            "values": "31"
+        },
+        {
+            "name": "Samyang Foods",
+            "values": "28"
+        },
+        {
+            "name": "Paldo",
+            "values": "18"
+        },
+        {
+            "name": "Sapporo Ichiban",
+            "values": "14"
+        },
+        {
+            "name": "Acecook",
+            "values": "13"
+        },
+        {
+            "name": "New Touch",
+            "values": "12"
+        },
+        {
+            "name": "Little Cook",
+            "values": "11"
+        },
+        {
+            "name": "Uni-President",
+            "values": "11"
+        },
+        {
+            "name": "Ve Wong",
+            "values": "11"
+        },
+        {
+            "name": "JML",
+            "values": "11"
+        },
+        {
+            "name": "Vedan",
+            "values": "10"
+        },
+        {
+            "name": "Lucky Me!",
+            "values": "10"
+        },
+        {
+            "name": "Wang",
+            "values": "8"
+        },
+        {
+            "name": "Menraku",
+            "values": "8"
+        },
+        {
+            "name": "Ottogi",
+            "values": "8"
+        },
+        {
+            "name": "Sunlee",
+            "values": "8"
+        },
+        {
+            "name": "Vifon",
+            "values": "7"
+        },
+        {
+            "name": "Unif",
+            "values": "7"
+        },
+        {
+            "name": "Dragonfly",
+            "values": "7"
+        },
+        {
+            "name": "Saigon Ve Wong",
+            "values": "7"
+        },
+        {
+            "name": "Mee Jang",
+            "values": "7"
+        },
+        {
+            "name": "Sau Tao",
+            "values": "6"
+        },
+        {
+            "name": "Master Kong",
+            "values": "6"
+        },
+        {
+            "name": "Yamamoto",
+            "values": "6"
+        },
+        {
+            "name": "Daikoku",
+            "values": "6"
+        },
+        {
+            "name": "Wei Lih",
+            "values": "6"
+        },
+        {
+            "name": "Mr. Noodles",
+            "values": "6"
+        },
+        {
+            "name": "Sichuan Baijia",
+            "values": "5"
+        },
+        {
+            "name": "Wugudaochang",
+            "values": "5"
+        },
+        {
+            "name": "Marutai",
+            "values": "5"
+        },
+        {
+            "name": "Kamfen",
+            "values": "5"
+        },
+        {
+            "name": "Fashion Foods",
+            "values": "5"
+        },
+        {
+            "name": "TTL",
+            "values": "4"
+        },
+        {
+            "name": "KOKA",
+            "values": "4"
+        },
+        {
+            "name": "MyKuali",
+            "values": "4"
+        },
+        {
+            "name": "Goku-Uma",
+            "values": "4"
+        },
+        {
+            "name": "Hao Way",
+            "values": "4"
+        },
+        {
+            "name": "Vina Acecook",
+            "values": "4"
+        },
+        {
+            "name": "Mama",
+            "values": "4"
+        },
+        {
+            "name": "Four Seas",
+            "values": "4"
+        },
+        {
+            "name": "Annie Chun's",
+            "values": "4"
+        },
+        {
+            "name": "Nona Lim",
+            "values": "3"
+        },
+        {
+            "name": "O'taste",
+            "values": "3"
+        },
+        {
+            "name": "Rooster",
+            "values": "3"
+        },
+        {
+            "name": "Suimin",
+            "values": "3"
+        },
+        {
+            "name": "Blount",
+            "values": "3"
+        },
+        {
+            "name": "Itomen",
+            "values": "3"
+        },
+        {
+            "name": "Fashion Food",
+            "values": "3"
+        },
+        {
+            "name": "Thai Smile",
+            "values": "3"
+        },
+        {
+            "name": "Golden Wheat",
+            "values": "3"
+        },
+        {
+            "name": "Goku Uma",
+            "values": "3"
+        },
+        {
+            "name": "Shirakiku",
+            "values": "3"
+        },
+        {
+            "name": "Thai Kitchen",
+            "values": "3"
+        },
+        {
+            "name": "Sao Tao",
+            "values": "3"
+        },
+        {
+            "name": "Samyang",
+            "values": "3"
+        },
+        {
+            "name": "Koka",
+            "values": "3"
+        },
+        {
+            "name": "Kang Shi Fu",
+            "values": "2"
+        },
+        {
+            "name": "Itsuki",
+            "values": "2"
+        },
+        {
+            "name": "Chencun",
+            "values": "2"
+        },
+        {
+            "name": "Tapatio",
+            "values": "2"
+        },
+        {
+            "name": "Soup Daren",
+            "values": "2"
+        },
+        {
+            "name": "Sunaoshi",
+            "values": "2"
+        },
+        {
+            "name": "TableMark",
+            "values": "2"
+        },
+        {
+            "name": "Liu Quan",
+            "values": "2"
+        },
+        {
+            "name": "Sichuan Guangyou",
+            "values": "2"
+        },
+        {
+            "name": "Chuan Wei Wang",
+            "values": "2"
+        },
+        {
+            "name": "MAMA",
+            "values": "2"
+        },
+        {
+            "name": "Tablemark",
+            "values": "2"
+        },
+        {
+            "name": "Fuku",
+            "values": "2"
+        },
+        {
+            "name": "7 Select",
+            "values": "2"
+        },
+        {
+            "name": "Tokushima Seifun",
+            "values": "2"
+        },
+        {
+            "name": "Yum Yum",
+            "values": "2"
+        },
+        {
+            "name": "Ten-In",
+            "values": "2"
+        },
+        {
+            "name": "Sakurai Foods",
+            "values": "2"
+        },
+        {
+            "name": "Sempio",
+            "values": "2"
+        },
+        {
+            "name": "Long Kow",
+            "values": "2"
+        },
+        {
+            "name": "JFC",
+            "values": "2"
+        },
+        {
+            "name": "Batchelors",
+            "values": "2"
+        },
+        {
+            "name": "Noah Foods",
+            "values": "2"
+        },
+        {
+            "name": "Foodmon",
+            "values": "2"
+        },
+        {
+            "name": "Kailo",
+            "values": "2"
+        },
+        {
+            "name": "Qi Shi Liu Ren",
+            "values": "1"
+        },
+        {
+            "name": "Nasoya",
+            "values": "1"
+        },
+        {
+            "name": "Peyoung",
+            "values": "1"
+        },
+        {
+            "name": "Nissin ",
+            "values": "1"
+        },
+        {
+            "name": "Chil Kab Farm Products",
+            "values": "1"
+        },
+        {
+            "name": "Lau Liu tou",
+            "values": "1"
+        },
+        {
+            "name": "Doll",
+            "values": "1"
+        },
+        {
+            "name": "Luosiking",
+            "values": "1"
+        },
+        {
+            "name": "Lau Liu Tou",
+            "values": "1"
+        },
+        {
+            "name": "Kinchan",
+            "values": "1"
+        },
+        {
+            "name": "COCO 2.0",
+            "values": "1"
+        },
+        {
+            "name": "Jinya Ramen Bar",
+            "values": "1"
+        },
+        {
+            "name": "Picnic",
+            "values": "1"
+        },
+        {
+            "name": "Sugakiya",
+            "values": "1"
+        },
+        {
+            "name": "Da Long Yi",
+            "values": "1"
+        },
+        {
+            "name": "Yumei",
+            "values": "1"
+        },
+        {
+            "name": "My Friend",
+            "values": "1"
+        },
+        {
+            "name": "Ikeda Shoku",
+            "values": "1"
+        },
+        {
+            "name": "Daifuku",
+            "values": "1"
+        },
+        {
+            "name": "Dream Kitchen",
+            "values": "1"
+        },
+        {
+            "name": "Xiuhe",
+            "values": "1"
+        },
+        {
+            "name": "Farmer's Heart",
+            "values": "1"
+        },
+        {
+            "name": "President Rice",
+            "values": "1"
+        },
+        {
+            "name": "Sanpo",
+            "values": "1"
+        },
+        {
+            "name": "ORee Garden",
+            "values": "1"
+        },
+        {
+            "name": "Seven & I",
+            "values": "1"
+        },
+        {
+            "name": "Sugakiya Foods",
+            "values": "1"
+        },
+        {
+            "name": "Authentically Asian",
+            "values": "1"
+        },
+        {
+            "name": "Yamadai",
+            "values": "1"
+        },
+        {
+            "name": "Wai Wai",
+            "values": "1"
+        },
+        {
+            "name": "Azami",
+            "values": "1"
+        },
+        {
+            "name": "ChoripDong",
+            "values": "1"
+        },
+        {
+            "name": "One Dish Asia",
+            "values": "1"
+        },
+        {
+            "name": "Osaka Ramen",
+            "values": "1"
+        },
+        {
+            "name": "Snapdragon",
+            "values": "1"
+        },
+        {
+            "name": "Plats Du Chef",
+            "values": "1"
+        },
+        {
+            "name": "Good Tto Leu Foods",
+            "values": "1"
+        },
+        {
+            "name": "Tokachimen Koubou",
+            "values": "1"
+        },
+        {
+            "name": "Sanrio",
+            "values": "1"
+        },
+        {
+            "name": "Song Hak",
+            "values": "1"
+        },
+        {
+            "name": "Fuji Mengyo",
+            "values": "1"
+        },
+        {
+            "name": "CJ CheilJedang",
+            "values": "1"
+        },
+        {
+            "name": "Dongwon",
+            "values": "1"
+        },
+        {
+            "name": "Souper",
+            "values": "1"
+        },
+        {
+            "name": "Kim's Bowl",
+            "values": "1"
+        },
+        {
+            "name": "Ohsung",
+            "values": "1"
+        },
+        {
+            "name": "Hosoonyi",
+            "values": "1"
+        },
+        {
+            "name": "Sura",
+            "values": "1"
+        },
+        {
+            "name": "Baijia",
+            "values": "1"
+        },
+        {
+            "name": "Haioreum",
+            "values": "1"
+        },
+        {
+            "name": "Nan Hsing",
+            "values": "1"
+        },
+        {
+            "name": "Noodle Time",
+            "values": "1"
+        },
+        {
+            "name": "Tayho",
+            "values": "1"
+        },
+        {
+            "name": "Tiger",
+            "values": "1"
+        },
+        {
+            "name": "Sanyo Foods",
+            "values": "1"
+        },
+        {
+            "name": "Bon Go Jang",
+            "values": "1"
+        },
+        {
+            "name": "Boss",
+            "values": "1"
+        },
+        {
+            "name": "Chorip Dong",
+            "values": "1"
+        },
+        {
+            "name": "Global Inspiration",
+            "values": "1"
+        },
+        {
+            "name": "Teriyaki Time",
+            "values": "1"
+        },
+        {
+            "name": "Kim Ve Wong",
+            "values": "1"
+        }
+        ]
+    },
+    {
+    "name": "Cup",
+        "children":[
+        {
+            "name": "Nissin",
+            "values": "204"
+        },
+        {
+            "name": "Maruchan",
+            "values": "28"
+        },
+        {
+            "name": "Nongshim",
+            "values": "22"
+        },
+        {
+            "name": "Sapporo Ichiban",
+            "values": "20"
+        },
+        {
+            "name": "Acecook",
+            "values": "20"
+        },
+        {
+            "name": "Mama",
+            "values": "19"
+        },
+        {
+            "name": "Paldo",
+            "values": "11"
+        },
+        {
+            "name": "KOKA",
+            "values": "11"
+        },
+        {
+            "name": "Pot Noodle",
+            "values": "11"
+        },
+        {
+            "name": "Mamee",
+            "values": "9"
+        },
+        {
+            "name": "Samyang Foods",
+            "values": "8"
+        },
+        {
+            "name": "Suimin",
+            "values": "8"
+        },
+        {
+            "name": "Myojo",
+            "values": "7"
+        },
+        {
+            "name": "Super",
+            "values": "7"
+        },
+        {
+            "name": "Ottogi",
+            "values": "7"
+        },
+        {
+            "name": "Yum Yum",
+            "values": "6"
+        },
+        {
+            "name": "Fantastic",
+            "values": "6"
+        },
+        {
+            "name": "Mr. Lee's Noodles",
+            "values": "6"
+        },
+        {
+            "name": "Indomie",
+            "values": "6"
+        },
+        {
+            "name": "Little Cook",
+            "values": "6"
+        },
+        {
+            "name": "ABC",
+            "values": "6"
+        },
+        {
+            "name": "Urban Noodle",
+            "values": "5"
+        },
+        {
+            "name": "Kabuto Noodles",
+            "values": "5"
+        },
+        {
+            "name": "Chencun",
+            "values": "5"
+        },
+        {
+            "name": "Eat & Go",
+            "values": "5"
+        },
+        {
+            "name": "MyKuali",
+            "values": "4"
+        },
+        {
+            "name": "Maison de Coree",
+            "values": "4"
+        },
+        {
+            "name": "Kinchan",
+            "values": "4"
+        },
+        {
+            "name": "Daikoku",
+            "values": "4"
+        },
+        {
+            "name": "Conimex",
+            "values": "4"
+        },
+        {
+            "name": "Maggi",
+            "values": "4"
+        },
+        {
+            "name": "A-One",
+            "values": "4"
+        },
+        {
+            "name": "Golden Wheat",
+            "values": "4"
+        },
+        {
+            "name": "Snapdragon",
+            "values": "4"
+        },
+        {
+            "name": "Jinmailang",
+            "values": "3"
+        },
+        {
+            "name": "Mike's Mighty Good Craft Ramen",
+            "values": "3"
+        },
+        {
+            "name": "Dream Kitchen",
+            "values": "3"
+        },
+        {
+            "name": "Singa-Me",
+            "values": "3"
+        },
+        {
+            "name": "Great Value",
+            "values": "3"
+        },
+        {
+            "name": "MAMA",
+            "values": "3"
+        },
+        {
+            "name": "Azami",
+            "values": "3"
+        },
+        {
+            "name": "Emart",
+            "values": "3"
+        },
+        {
+            "name": "Vifon",
+            "values": "3"
+        },
+        {
+            "name": "Campbell's",
+            "values": "3"
+        },
+        {
+            "name": "Thai Choice",
+            "values": "3"
+        },
+        {
+            "name": "Tesco",
+            "values": "3"
+        },
+        {
+            "name": "Western Family",
+            "values": "3"
+        },
+        {
+            "name": "Mr. Noodles",
+            "values": "3"
+        },
+        {
+            "name": "Tradition",
+            "values": "3"
+        },
+        {
+            "name": "Rooster",
+            "values": "2"
+        },
+        {
+            "name": "Mama Pat's",
+            "values": "2"
+        },
+        {
+            "name": "Trader Joe's",
+            "values": "2"
+        },
+        {
+            "name": "Miandom",
+            "values": "2"
+        },
+        {
+            "name": "New Touch",
+            "values": "2"
+        },
+        {
+            "name": "Doll",
+            "values": "2"
+        },
+        {
+            "name": "Wai Wai",
+            "values": "2"
+        },
+        {
+            "name": "Mi Sedaap",
+            "values": "2"
+        },
+        {
+            "name": "No Name",
+            "values": "2"
+        },
+        {
+            "name": "Pama",
+            "values": "2"
+        },
+        {
+            "name": "Koka",
+            "values": "2"
+        },
+        {
+            "name": "Baijia",
+            "values": "2"
+        },
+        {
+            "name": "Samyang",
+            "values": "2"
+        },
+        {
+            "name": "Royal Umbrella",
+            "values": "2"
+        },
+        {
+            "name": "EDO Pack",
+            "values": "1"
+        },
+        {
+            "name": "7-Eleven / Nissin",
+            "values": "1"
+        },
+        {
+            "name": "Cigala",
+            "values": "1"
+        },
+        {
+            "name": "Hite",
+            "values": "1"
+        },
+        {
+            "name": "Bowlfull",
+            "values": "1"
+        },
+        {
+            "name": "Sichuan Baijia",
+            "values": "1"
+        },
+        {
+            "name": "Micoem",
+            "values": "1"
+        },
+        {
+            "name": "Mamee Shinsegae",
+            "values": "1"
+        },
+        {
+            "name": "Ajinomoto",
+            "values": "1"
+        },
+        {
+            "name": "Lien Ying",
+            "values": "1"
+        },
+        {
+            "name": "nunu",
+            "values": "1"
+        },
+        {
+            "name": "Kaset",
+            "values": "1"
+        },
+        {
+            "name": "Banzai",
+            "values": "1"
+        },
+        {
+            "name": "Dr. McDougall's",
+            "values": "1"
+        },
+        {
+            "name": "Gefen",
+            "values": "1"
+        },
+        {
+            "name": "Mie Sedaap",
+            "values": "1"
+        },
+        {
+            "name": "Crystal Noodle",
+            "values": "1"
+        },
+        {
+            "name": "Vedan",
+            "values": "1"
+        },
+        {
+            "name": "Vina Acecook",
+            "values": "1"
+        },
+        {
+            "name": "7 Select/Nissin",
+            "values": "1"
+        },
+        {
+            "name": "Lucky Me!",
+            "values": "1"
+        },
+        {
+            "name": "Bamee",
+            "values": "1"
+        },
+        {
+            "name": "Pamana",
+            "values": "1"
+        },
+        {
+            "name": "GaGa",
+            "values": "1"
+        },
+        {
+            "name": "Golden Wonder",
+            "values": "1"
+        },
+        {
+            "name": "Ko-Lee",
+            "values": "1"
+        },
+        {
+            "name": "Right Foods",
+            "values": "1"
+        },
+        {
+            "name": "Long Kow",
+            "values": "1"
+        },
+        {
+            "name": "CJ CheilJedang",
+            "values": "1"
+        },
+        {
+            "name": "Seven-Eleven",
+            "values": "1"
+        },
+        {
+            "name": "O Sung",
+            "values": "1"
+        },
+        {
+            "name": "Uni-President",
+            "values": "1"
+        },
+        {
+            "name": "Noodle Time",
+            "values": "1"
+        },
+        {
+            "name": "Quickchow",
+            "values": "1"
+        },
+        {
+            "name": "Knorr",
+            "values": "1"
+        },
+        {
+            "name": "Sutah",
+            "values": "1"
+        }
+        ]
+    },
+    {
+        "name": "Tray",
+        "children": [
+        {
+            "name": "Nissin",
+            "values": "32"
+        },
+        {
+            "name": "Maruchan",
+            "values": "19"
+        },
+        {
+            "name": "Myojo",
+            "values": "17"
+        },
+        {
+            "name": "Acecook",
+            "values": "6"
+        },
+        {
+            "name": "Sun Noodle",
+            "values": "6"
+        },
+        {
+            "name": "Rhee Bros Assi",
+            "values": "6"
+        },
+        {
+            "name": "Paldo",
+            "values": "5"
+        },
+        {
+            "name": "Sapporo Ichiban",
+            "values": "4"
+        },
+        {
+            "name": "Kamfen",
+            "values": "4"
+        },
+        {
+            "name": "A-Sha Dry Noodle",
+            "values": "3"
+        },
+        {
+            "name": "IbuRamen",
+            "values": "3"
+        },
+        {
+            "name": "Thai Pavilion",
+            "values": "3"
+        },
+        {
+            "name": "Annie Chun's",
+            "values": "3"
+        },
+        {
+            "name": "Han's South Korea",
+            "values": "3"
+        },
+        {
+            "name": "Yumei",
+            "values": "2"
+        },
+        {
+            "name": "Peyoung",
+            "values": "2"
+        },
+        {
+            "name": "New Touch",
+            "values": "2"
+        },
+        {
+            "name": "Daikoku",
+            "values": "2"
+        },
+        {
+            "name": "Peyang",
+            "values": "2"
+        },
+        {
+            "name": "Kin-Dee",
+            "values": "2"
+        },
+        {
+            "name": "Thai Kitchen",
+            "values": "2"
+        },
+        {
+            "name": "Nongshim",
+            "values": "2"
+        },
+        {
+            "name": "Chewy",
+            "values": "2"
+        },
+        {
+            "name": "Yibin",
+            "values": "1"
+        },
+        {
+            "name": "Kinchan",
+            "values": "1"
+        },
+        {
+            "name": "Luosiking",
+            "values": "1"
+        },
+        {
+            "name": "Chongqing Suanlabao Food Co., Ltd.",
+            "values": "1"
+        },
+        {
+            "name": "Shanjinshan",
+            "values": "1"
+        },
+        {
+            "name": "JML",
+            "values": "1"
+        },
+        {
+            "name": "Chuanbei",
+            "values": "1"
+        },
+        {
+            "name": "Ikeda Shoku",
+            "values": "1"
+        },
+        {
+            "name": "Guava Story",
+            "values": "1"
+        },
+        {
+            "name": "Liang Cheng Mai",
+            "values": "1"
+        },
+        {
+            "name": "New Way",
+            "values": "1"
+        },
+        {
+            "name": "Nan Jie Cun",
+            "values": "1"
+        },
+        {
+            "name": "Master Kong",
+            "values": "1"
+        },
+        {
+            "name": "Hankow",
+            "values": "1"
+        },
+        {
+            "name": "US Canning",
+            "values": "1"
+        },
+        {
+            "name": "Bon Go Jang",
+            "values": "1"
+        },
+        {
+            "name": "Fu Chang Chinese Noodle Company",
+            "values": "1"
+        },
+        {
+            "name": "Vina Acecook",
+            "values": "1"
+        },
+        {
+            "name": "Doll",
+            "values": "1"
+        }
+        ]
+    },
+    {
+        "name": "Box",
+        "children": [
+        {
+            "name": "Way Premium Foods",
+            "values": "6"
+        },
+        {
+            "name": "Island Foods",
+            "values": "5"
+        },
+        {
+            "name": "A-Sha",
+            "values": "3"
+        },
+        {
+            "name": "Kubota",
+            "values": "3"
+        },
+        {
+            "name": "MyKuali",
+            "values": "3"
+        },
+        {
+            "name": "Mom's Dry Noodle",
+            "values": "2"
+        },
+        {
+            "name": "Kikusui",
+            "values": "2"
+        },
+        {
+            "name": "Vedan",
+            "values": "2"
+        },
+        {
+            "name": "Liangchengmei",
+            "values": "2"
+        },
+        {
+            "name": "Kiki",
+            "values": "2"
+        },
+        {
+            "name": "Lipton",
+            "values": "2"
+        },
+        {
+            "name": "Wu Mu",
+            "values": "1"
+        },
+        {
+            "name": "Liang Cheng Mai",
+            "values": "1"
+        },
+        {
+            "name": "Chef Nic's Noodles",
+            "values": "1"
+        },
+        {
+            "name": "Jinanbo",
+            "values": "1"
+        },
+        {
+            "name": "Hide Chan",
+            "values": "1"
+        },
+        {
+            "name": "Hokkaido Furano Ramen",
+            "values": "1"
+        },
+        {
+            "name": "Tiger Tiger",
+            "values": "1"
+        },
+        {
+            "name": "Ebisoba Ichigen",
+            "values": "1"
+        },
+        {
+            "name": "Simply Asia",
+            "values": "1"
+        },
+        {
+            "name": "Culley's",
+            "values": "1"
+        },
+        {
+            "name": "Neo~Essence",
+            "values": "1"
+        },
+        {
+            "name": "Indomie",
+            "values": "1"
+        },
+        {
+            "name": "Nagatanien",
+            "values": "1"
+        },
+        {
+            "name": "Happy Noodle",
+            "values": "1"
+        },
+        {
+            "name": "The Ramen Rater Select",
+            "values": "1"
+        },
+        {
+            "name": "La Fonte",
+            "values": "1"
+        }
+        ]
+    },
+    {
+        "name": "Restaurant",
+        "children": [
+        {
+            "name": "Shibu Ramen",
+            "values": 1
+        },
+        {
+            "name": "Kizuki Ramen & Izakaya",
+            "values": 1
+        },
+        {
+            "name": "Hokkaido Ramen Santouka",
+            "values": 1
+        }
+        ]
+    },
+    {
+        "name": "Can",
+        "children": [
+        {
+            "name": "Pringles",
+            "values": 1
+        }
+        ]
+    },
+    {
+        "name": "Bar",
+        "values": [
+        {
+            "name": "Komforte Chockolates",
+            "values": 1
+        }
+        ]
+    }
+    ]
+};
+
+var width = 960,
+    height = 700,
+    radius = (Math.min(width, height) / 2) - 10;
+
+var formatNumber = d3.format(",d");
+
+var x = d3.scaleLinear()
+    .range([0, 2 * Math.PI]);
+
+var y = d3.scaleSqrt()
+    .range([0, radius]);
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+var partition = d3.partition();
+
+var arc = d3.arc()
+    .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
+    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
+    .innerRadius(function(d) { return Math.max(0, y(d.y0)); })
+    .outerRadius(function(d) { return Math.max(0, y(d.y1)); });
+
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
+
+
+root = d3.hierarchy(nodeData);
+root.sum(function(d) { return d.values; });
+svg.selectAll("path")
+    .data(partition(root).descendants())
+.enter().append("path")
+    .attr("d", arc)
+    .style("fill", function(d) { return color((d.children ? d : d.parent).data.name); })
+    .on("click", click)
+.append("title")
+    .text(function(d) { return d.data.name + "\n" + formatNumber(d.value); });
+
+
+function click(d) {
+  svg.transition()
+      .duration(750)
+      .tween("scale", function() {
+        var xd = d3.interpolate(x.domain(), [d.x0, d.x1]),
+            yd = d3.interpolate(y.domain(), [d.y0, 1]),
+            yr = d3.interpolate(y.range(), [d.y0 ? 20 : 0, radius]);
+        return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); };
+      })
+    .selectAll("path")
+      .attrTween("d", function(d) { return function() { return arc(d); }; });
+}
+
+d3.select(self.frameElement).style("height", height + "px");
+</script>
