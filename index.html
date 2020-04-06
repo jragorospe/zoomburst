@@ -2753,7 +2753,7 @@ var formatNumber = d3.format(",d");
 var x = d3.scaleLinear()
     .range([0, 2 * Math.PI]);
 
-var y = d3.scaleSqrt()
+var y = d3.scaleLinear()
     .range([0, radius]);
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
