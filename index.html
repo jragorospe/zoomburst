@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+<html>
 <style>
-    path {
-        stroke: #fff;
+    body {
+        margin:0;
+        position:fixed;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+    }
+
+    text {
+        font: 10px sans-serif;
+        text-anchor: middle;
+    }
+
+    div#container {
+        height: 1000px;
+        width:  1200px;
+    }
+
+    svg#partitionSVG {
+        height: 932px;
+        width: 932px;
+        background-color: white;
     }
 </style>
+<head>
+    <title>Zoomable Sunburst(D3 v5)</title>
+    <meta charset="utf-8">
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
 <input type="text" id="fname" name="fname"><br><br>
 <button type="button" onclick="updateData()">Update</button>
 <select id="Countries" onchange="updateData()">
+    <option value="ramen">World</option>
     <option value="Australia">Australia</option>
     <option value="Bangladesh">Bangladesh</option>
     <option value="Brazil">Brazil</option>
@@ -53,68 +81,58 @@
     <option value="Ukraine">Ukraine</option>
     <option value="USA">USA</option>
     <option value="Vietnam">Vietnam</option>
-    <option value="ramen">World</option>
+
 </select>
+
 <body>
-<script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
+    'use strict';
 
-    var width = 960,
-        height = 700,
-        radius = (Math.min(width, height) / 2) - 10;
+    const format = d3.format(",d");
+    const width = 750;
+    const radius = width / 6;
 
-    var formatNumber = d3.format(",d");
+    const arc = d3.arc()
+        .startAngle(d => d.x0)
+        .endAngle(d => d.x1)
+        .padAngle(d => Math.min((d.x1 - d.x0) / 2, 0.005))
+        .padRadius(radius * 1.5)
+        .innerRadius(d => d.y0 * radius)
+        .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
 
-    var x = d3.scaleLinear()
-        .range([0, 2 * Math.PI]);
+    const partition = data => {
+        const root = d3.hierarchy(data)
+            .sum(d => d.values)
+            .sort((a, b) => b.value - a.value);
+        return d3.partition()
+            .size([2 * Math.PI, root.height + 1])(root);
+    };
 
-    var y = d3.scaleLinear()
-        .range([0, radius]);
-
-    var color = d3.scaleOrdinal(d3.schemeCategory20);
-
-    var partition = d3.partition();
-
-    var arc = d3.arc()
-        .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
-        .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
-        .innerRadius(function(d) { return Math.max(0, y(d.y0)); })
-        .outerRadius(function(d) { return Math.max(0, y(d.y1)); });
-
-
-    var svg = d3.select("body").append("svg")
-        .attr("width", width)
-        .attr("height", height)
-        .append("g")
-        .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
-
-    d3.json("ramen.json", function(error, root) {
-        if (error) throw error;
-
-        root = d3.hierarchy(root);
-        root.sum(function(d) { return d.values; });
-        svg.selectAll("path")
-            .data(partition(root).descendants())
-            .enter().append("path")
-            .attr("d", arc)
-            .style("fill", function(d) { return color((d.children ? d : d.parent).data.name); })
-            .on("click", click)
-            .append("title")
-            .text(function(d) { return d.data.name + "\n" + formatNumber(d.value); });
-    });
-
-    function click(d) {
-        svg.transition()
-            .duration(750)
-            .tween("scale", function() {
-                var xd = d3.interpolate(x.domain(), [d.x0, d.x1]),
-                    yd = d3.interpolate(y.domain(), [d.y0, 1]),
-                    yr = d3.interpolate(y.range(), [d.y0 ? 20 : 0, radius]);
-                return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); };
-            })
-            .selectAll("path")
-            .attrTween("d", function(d) { return function() { return arc(d); }; });
+    function arcVisible(d) {
+        return d.y1 <= 3 && d.y0 >= 1 && d.x1 > d.x0;
     }
+
+    function labelVisible(d) {
+        return d.y1 <= 3 && d.y0 >= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) > 0.03;
+    }
+
+    function labelTransform(d) {
+        const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
+        const y = (d.y0 + d.y1) / 2 * radius;
+        return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
+    }
+
+
+    /**
+     * Four working methods to load data:
+     * (1) Inline data in json format (JS plain objects);
+     * (2) From an https URL, which works only afer allowing cross origin requests
+     *     on Firefox if the data URL is not the same as your app server;
+     * (3) From a local file;
+     * (4) Calling require()('@observablehq/flare') (observable-specific). In fact,
+     *     The same as (2).
+     */
+    updateData();
 
     function updateData() {
         var cString = document.getElementById('Countries');
@@ -123,46 +141,103 @@
         var txtBox = document.getElementById("fname");
         txtBox.value = countryFile;
 
-        d3.json(countryFile, function (error, root) {
-            if (error) throw error;
+        d3.selectAll("g > *").remove();
 
-            d3.select("svg").remove();
-            var svg = d3.select("body").append("svg")
-                .attr("width", width)
-                .attr("height", height)
-                .append("g")
-                .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
+        d3.json(countryFile).then((data, error) => { // works behind proxy!
+            console.log(data);
+            const root = partition(data);
+            const color = d3.scaleOrdinal()
+                .range(d3.quantize(d3.interpolateRainbow,
+                    data.children.length + 1));
 
-            root = d3.hierarchy(root);
-            root.sum(function (d) {
-                return d.values;
-            });
+            root.each(d => d.current = d);
 
-            function click(d) {
-                svg.transition()
-                    .duration(750)
-                    .tween("scale", function() {
-                        var xd = d3.interpolate(x.domain(), [d.x0, d.x1]),
-                            yd = d3.interpolate(y.domain(), [d.y0, 1]),
-                            yr = d3.interpolate(y.range(), [d.y0 ? 20 : 0, radius]);
-                        return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); };
+            const svg = d3.select('#partitionSVG')
+                .style("width", "100%")
+                .style("height", "auto")
+                .style("font", "9px sans-serif");
+
+            const g = svg.append("g")
+                .attr("transform", `translate(${width / 2},${width / 2})`);
+
+            const path = g.append("g")
+                .selectAll("path")
+                .data(root.descendants().slice(1))
+                .join("path")
+                .attr("fill", d => {
+                    while (d.depth > 1) { d = d.parent; }
+                    return color(d.data.name);
+                })
+                .attr("fill-opacity", d =>
+                    arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)
+                .attr("d", d => arc(d.current));
+
+            path.filter(d => d.children)
+                .style("cursor", "pointer")
+                .on("click", clicked);
+
+            path.append("title")
+                .text(d => `${d.ancestors().map(d => d.data.name).reverse().join("/")}\nCount: ${format(d.value)}`);
+
+            const label = g.append("g")
+                .attr("pointer-events", "none")
+                .attr("text-anchor", "middle")
+                .style("user-select", "none")
+                .selectAll("text")
+                .data(root.descendants().slice(1))
+                .join("text")
+                .attr("dy", "0.35em")
+                .attr("fill-opacity", d => +labelVisible(d.current))
+                .attr("transform", d => labelTransform(d.current))
+                .text(d => d.data.name);
+
+            const parent = g.append("circle")
+                .datum(root)
+                .attr("r", radius)
+                .attr("fill", "none")
+                .attr("pointer-events", "all")
+                .on("click", clicked);
+
+            function clicked(p) {
+                parent.datum(p.parent || root);
+
+                root.each(d => d.target = {
+                    x0: Math.max(0, Math.min(1, (d.x0 - p.x0) / (p.x1 - p.x0))) * 2 * Math.PI,
+                    x1: Math.max(0, Math.min(1, (d.x1 - p.x0) / (p.x1 - p.x0))) * 2 * Math.PI,
+                    y0: Math.max(0, d.y0 - p.depth),
+                    y1: Math.max(0, d.y1 - p.depth)
+                });
+
+                const t = g.transition().duration(750);
+
+                // Transition the data on all arcs, even the ones that aren’t visible,
+                // so that if this transition is interrupted, entering arcs will start
+                // the next transition from the desired position.
+                path.transition(t)
+                    .tween("data", d => {
+                        const i = d3.interpolate(d.current, d.target);
+                        return t => d.current = i(t);
                     })
-                    .selectAll("path")
-                    .attrTween("d", function(d) { return function() { return arc(d); }; });
+                    .filter(function (d) {
+                        return +this.getAttribute("fill-opacity") || arcVisible(d.target);
+                    })
+                    .attr("fill-opacity", d =>
+                        arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0)
+                    .attrTween("d", d => () => arc(d.current));
+
+                label.filter(function (d) {
+                    return this.getAttribute("fill-opacity") || labelVisible(d.target);
+                }).transition(t)
+                    .attr("fill-opacity", d => +labelVisible(d.target))
+                    .attrTween("transform", d => () => labelTransform(d.current));
             }
-
-            svg.selectAll("path")
-                .data(partition(root).descendants())
-                .enter().append("path")
-                .attr("d", arc)
-                .on("click", click)
-                .style("fill", function (d) {return color((d.children ? d : d.parent).data.name);})
-                .append("title")
-                .text(function (d) {return d.data.name + "\n" + formatNumber(d.value);});
-
         });
-
     }
 
-    d3.select(self.frameElement).style("height", height + "px");
 </script>
+
+<div id="container">
+    <svg id="partitionSVG" viewBox="0 0 932 932"></svg>
+</div>
+</body>
+</html>
