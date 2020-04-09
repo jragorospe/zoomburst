@@ -1,0 +1,14 @@
+{
+  "name": "France",
+  "children": [
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Maison de Coree",
+          "values": 4
+        }
+      ]
+    }
+  ]
+}

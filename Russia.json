@@ -1,0 +1,23 @@
+{
+  "name": "Russia",
+  "children": [
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Hite",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "Big Bon",
+          "values": 4
+        }
+      ]
+    }
+  ]
+}

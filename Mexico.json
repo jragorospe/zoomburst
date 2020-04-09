@@ -1,0 +1,44 @@
+{
+  "name": "Mexico",
+  "children": [
+    {
+      "name": "Tray",
+      "children": [
+        {
+          "name": "Nissin",
+          "values": 3
+        }
+      ]
+    },
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Nissin",
+          "values": 19
+        }
+      ]
+    },
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "Nissin",
+          "values": 3
+        },
+        {
+          "name": "Ottogi",
+          "values": 4
+        },
+        {
+          "name": "Maruchan",
+          "values": 2
+        },
+        {
+          "name": "La Moderna",
+          "values": 1
+        }
+      ]
+    }
+  ]
+}

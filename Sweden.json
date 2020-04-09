@@ -1,0 +1,18 @@
+{
+  "name": "Sweden",
+  "children": [
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "ICA",
+          "values": 2
+        },
+        {
+          "name": "Katoz",
+          "values": 1
+        }
+      ]
+    }
+  ]
+}

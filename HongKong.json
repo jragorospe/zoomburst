@@ -1,0 +1,125 @@
+{
+  "name": "Hong Kong",
+  "children": [
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "EDO Pack",
+          "values": 1
+        },
+        {
+          "name": "Nissin",
+          "values": 38
+        },
+        {
+          "name": "Doll",
+          "values": 2
+        }
+      ]
+    },
+    {
+      "name": "Bowl",
+      "children": [
+        {
+          "name": "Sau Tao",
+          "values": 6
+        },
+        {
+          "name": "Doll",
+          "values": 1
+        },
+        {
+          "name": "Nissin",
+          "values": 11
+        },
+        {
+          "name": "Kamfen",
+          "values": 5
+        },
+        {
+          "name": "Fuku",
+          "values": 2
+        },
+        {
+          "name": "Four Seas",
+          "values": 3
+        },
+        {
+          "name": "Kailo",
+          "values": 2
+        },
+        {
+          "name": "Sao Tao",
+          "values": 3
+        }
+      ]
+    },
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "EDO Pack",
+          "values": 2
+        },
+        {
+          "name": "Sau Tao",
+          "values": 11
+        },
+        {
+          "name": "Nissin",
+          "values": 30
+        },
+        {
+          "name": "Kang Shi Fu",
+          "values": 4
+        },
+        {
+          "name": "Fuku",
+          "values": 8
+        },
+        {
+          "name": "Doll",
+          "values": 13
+        },
+        {
+          "name": "Four Seas",
+          "values": 4
+        },
+        {
+          "name": "Mamee",
+          "values": 1
+        },
+        {
+          "name": "Chewy",
+          "values": 4
+        },
+        {
+          "name": "Knorr",
+          "values": 4
+        },
+        {
+          "name": "Kamfen",
+          "values": 1
+        },
+        {
+          "name": "Kailo",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Tray",
+      "children": [
+        {
+          "name": "Kamfen",
+          "values": 1
+        },
+        {
+          "name": "Doll",
+          "values": 1
+        }
+      ]
+    }
+  ]
+}

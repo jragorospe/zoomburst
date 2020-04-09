@@ -1,0 +1,14 @@
+{
+  "name": "Portugal",
+  "children": [
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Cigala",
+          "values": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "name": "Japan",
+  "children": [
+    {
+      "name": "Tray",
+      "children": [
+        {
+          "name": "Maruchan",
+          "values": 4
+        },
+        {
+          "name": "Peyoung",
+          "values": 2
+        },
+        {
+          "name": "Myojo",
+          "values": 17
+        },
+        {
+          "name": "Kinchan",
+          "values": 1
+        },
+        {
+          "name": "New Touch",
+          "values": 2
+        },
+        {
+          "name": "Acecook",
+          "values": 6
+        },
+        {
+          "name": "Sapporo Ichiban",
+          "values": 4
+        },
+        {
+          "name": "Daikoku",
+          "values": 2
+        },
+        {
+          "name": "Nissin",
+          "values": 7
+        },
+        {
+          "name": "Peyang",
+          "values": 2
+        },
+        {
+          "name": "Ikeda Shoku",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Nissin",
+          "values": 46
+        },
+        {
+          "name": "Sapporo Ichiban",
+          "values": 16
+        },
+        {
+          "name": "Maruchan",
+          "values": 11
+        },
+        {
+          "name": "Myojo",
+          "values": 7
+        },
+        {
+          "name": "7-Eleven / Nissin",
+          "values": 1
+        },
+        {
+          "name": "Acecook",
+          "values": 20
+        },
+        {
+          "name": "Kinchan",
+          "values": 4
+        },
+        {
+          "name": "Daikoku",
+          "values": 4
+        },
+        {
+          "name": "Nongshim",
+          "values": 1
+        },
+        {
+          "name": "New Touch",
+          "values": 2
+        },
+        {
+          "name": "Samyang Foods",
+          "values": 2
+        },
+        {
+          "name": "Seven-Eleven",
+          "values": 1
+        },
+        {
+          "name": "Paldo",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "Marutai",
+          "values": 8
+        },
+        {
+          "name": "Itsuki",
+          "values": 16
+        },
+        {
+          "name": "Hikari Miso",
+          "values": 1
+        },
+        {
+          "name": "Kenko Foods",
+          "values": 8
+        },
+        {
+          "name": "Nongshim",
+          "values": 1
+        },
+        {
+          "name": "Tabate",
+          "values": 1
+        },
+        {
+          "name": "Zombear",
+          "values": 1
+        },
+        {
+          "name": "Himawari-Shokuhin",
+          "values": 1
+        },
+        {
+          "name": "Sanpo",
+          "values": 1
+        },
+        {
+          "name": "Kuro Tetsuya",
+          "values": 1
+        },
+        {
+          "name": "Mitukura",
+          "values": 1
+        },
+        {
+          "name": "Nakaki",
+          "values": 1
+        },
+        {
+          "name": "Sakurai Foods",
+          "values": 11
+        },
+        {
+          "name": "Maruchan",
+          "values": 12
+        },
+        {
+          "name": "Nagatanien",
+          "values": 3
+        },
+        {
+          "name": "Hakubaku",
+          "values": 2
+        },
+        {
+          "name": "Fukumen",
+          "values": 1
+        },
+        {
+          "name": "Daikoku",
+          "values": 1
+        },
+        {
+          "name": "Itomen",
+          "values": 7
+        },
+        {
+          "name": "San-Iku",
+          "values": 4
+        },
+        {
+          "name": "Sunaoshi",
+          "values": 1
+        },
+        {
+          "name": "New Touch",
+          "values": 1
+        },
+        {
+          "name": "Yamamoto",
+          "values": 1
+        },
+        {
+          "name": "Myojo",
+          "values": 23
+        },
+        {
+          "name": "Myramen",
+          "values": 3
+        },
+        {
+          "name": "Sugakiya",
+          "values": 1
+        },
+        {
+          "name": "Nissin",
+          "values": 35
+        },
+        {
+          "name": "Acecook",
+          "values": 1
+        },
+        {
+          "name": "Ichiran Ramen",
+          "values": 1
+        },
+        {
+          "name": "Village Vanguard",
+          "values": 1
+        },
+        {
+          "name": "Nanoblock",
+          "values": 1
+        },
+        {
+          "name": "Isoyama Shoji",
+          "values": 1
+        },
+        {
+          "name": "Ripe'n'Dry",
+          "values": 3
+        },
+        {
+          "name": "Fujiwara",
+          "values": 7
+        },
+        {
+          "name": "Sokensha",
+          "values": 1
+        },
+        {
+          "name": "Takamori",
+          "values": 1
+        },
+        {
+          "name": "Samurai Ramen",
+          "values": 1
+        },
+        {
+          "name": "Ogasawara",
+          "values": 2
+        },
+        {
+          "name": "Tokyo Noodle",
+          "values": 4
+        },
+        {
+          "name": "Ajinatori",
+          "values": 2
+        },
+        {
+          "name": "Tokushima Seifun",
+          "values": 2
+        },
+        {
+          "name": "Higashimaru",
+          "values": 1
+        },
+        {
+          "name": "Kuriki",
+          "values": 3
+        },
+        {
+          "name": "Daraz",
+          "values": 1
+        },
+        {
+          "name": "Nakaya Shouten",
+          "values": 1
+        },
+        {
+          "name": "Torishi",
+          "values": 1
+        },
+        {
+          "name": "Ishimaru",
+          "values": 1
+        },
+        {
+          "name": "Mitoku",
+          "values": 1
+        },
+        {
+          "name": "Unzen",
+          "values": 1
+        },
+        {
+          "name": "Oyatsu",
+          "values": 4
+        },
+        {
+          "name": "Men-Sunaoshi",
+          "values": 2
+        },
+        {
+          "name": "Takamori Kosan",
+          "values": 14
+        },
+        {
+          "name": "Kimura",
+          "values": 1
+        },
+        {
+          "name": "Sapporo Ichiban",
+          "values": 7
+        },
+        {
+          "name": "Kumamoto",
+          "values": 1
+        },
+        {
+          "name": "Sugakiya Foods",
+          "values": 1
+        },
+        {
+          "name": "Tablemark",
+          "values": 1
+        },
+        {
+          "name": "Nagao Noodle",
+          "values": 1
+        },
+        {
+          "name": "Yamamori",
+          "values": 2
+        },
+        {
+          "name": "Shirakiku",
+          "values": 4
+        },
+        {
+          "name": "Higashi",
+          "values": 1
+        },
+        {
+          "name": "Sakurai",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Bowl",
+      "children": [
+        {
+          "name": "Nissin",
+          "values": 52
+        },
+        {
+          "name": "Maruchan",
+          "values": 28
+        },
+        {
+          "name": "Acecook",
+          "values": 13
+        },
+        {
+          "name": "Peyoung",
+          "values": 1
+        },
+        {
+          "name": "Sapporo Ichiban",
+          "values": 13
+        },
+        {
+          "name": "Myojo",
+          "values": 22
+        },
+        {
+          "name": "New Touch",
+          "values": 11
+        },
+        {
+          "name": "Yamamoto",
+          "values": 6
+        },
+        {
+          "name": "Daikoku",
+          "values": 6
+        },
+        {
+          "name": "Itsuki",
+          "values": 2
+        },
+        {
+          "name": "Kinchan",
+          "values": 1
+        },
+        {
+          "name": "Sunaoshi",
+          "values": 2
+        },
+        {
+          "name": "Itomen",
+          "values": 3
+        },
+        {
+          "name": "Sugakiya",
+          "values": 1
+        },
+        {
+          "name": "My Friend",
+          "values": 1
+        },
+        {
+          "name": "TableMark",
+          "values": 2
+        },
+        {
+          "name": "Marutai",
+          "values": 5
+        },
+        {
+          "name": "Ikeda Shoku",
+          "values": 1
+        },
+        {
+          "name": "Tablemark",
+          "values": 2
+        },
+        {
+          "name": "Menraku",
+          "values": 8
+        },
+        {
+          "name": "Sanpo",
+          "values": 1
+        },
+        {
+          "name": "Tokushima Seifun",
+          "values": 2
+        },
+        {
+          "name": "Seven & I",
+          "values": 1
+        },
+        {
+          "name": "Sugakiya Foods",
+          "values": 1
+        },
+        {
+          "name": "Yamadai",
+          "values": 1
+        },
+        {
+          "name": "Tokachimen Koubou",
+          "values": 1
+        },
+        {
+          "name": "Sanrio",
+          "values": 1
+        },
+        {
+          "name": "Sakurai Foods",
+          "values": 2
+        },
+        {
+          "name": "Goku Uma",
+          "values": 3
+        },
+        {
+          "name": "Fuji Mengyo",
+          "values": 1
+        },
+        {
+          "name": "JFC",
+          "values": 2
+        },
+        {
+          "name": "Shirakiku",
+          "values": 3
+        },
+        {
+          "name": "Sanyo Foods",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Box",
+      "children": [
+        {
+          "name": "Kubota",
+          "values": 3
+        },
+        {
+          "name": "Jinanbo",
+          "values": 1
+        },
+        {
+          "name": "Hide Chan",
+          "values": 1
+        },
+        {
+          "name": "Kikusui",
+          "values": 2
+        },
+        {
+          "name": "Hokkaido Furano Ramen",
+          "values": 1
+        },
+        {
+          "name": "Ebisoba Ichigen",
+          "values": 1
+        },
+        {
+          "name": "Island Foods",
+          "values": 5
+        },
+        {
+          "name": "Nagatanien",
+          "values": 1
+        },
+        {
+          "name": "MyKuali",
+          "values": 2
+        }
+      ]
+    }
+  ]
+}

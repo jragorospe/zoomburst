@@ -1,0 +1,108 @@
+{
+  "name": "Canada",
+  "children": [
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Rooster",
+          "values": 2
+        },
+        {
+          "name": "Bowlfull",
+          "values": 1
+        },
+        {
+          "name": "Great Value",
+          "values": 3
+        },
+        {
+          "name": "Azami",
+          "values": 3
+        },
+        {
+          "name": "No Name",
+          "values": 2
+        },
+        {
+          "name": "Campbell's",
+          "values": 3
+        },
+        {
+          "name": "Western Family",
+          "values": 3
+        },
+        {
+          "name": "Mr. Noodles",
+          "values": 3
+        }
+      ]
+    },
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "No Name",
+          "values": 3
+        },
+        {
+          "name": "Rooster",
+          "values": 3
+        },
+        {
+          "name": "Suraj",
+          "values": 1
+        },
+        {
+          "name": "Bowlfull",
+          "values": 1
+        },
+        {
+          "name": "Great Value",
+          "values": 4
+        },
+        {
+          "name": "Azami",
+          "values": 1
+        },
+        {
+          "name": "Western Family",
+          "values": 3
+        },
+        {
+          "name": "Sapporo Ichiban",
+          "values": 1
+        },
+        {
+          "name": "Mr. Noodles",
+          "values": 7
+        }
+      ]
+    },
+    {
+      "name": "Bowl",
+      "children": [
+        {
+          "name": "Rooster",
+          "values": 3
+        },
+        {
+          "name": "Mr. Noodles",
+          "values": 6
+        },
+        {
+          "name": "Azami",
+          "values": 1
+        },
+        {
+          "name": "Plats Du Chef",
+          "values": 1
+        },
+        {
+          "name": "Noodle Time",
+          "values": 1
+        }
+      ]
+    }
+  ]
+}

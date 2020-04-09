@@ -1,0 +1,39 @@
+{
+  "name": "Brazil",
+  "children": [
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "Nissin Miojo",
+          "values": 10
+        },
+        {
+          "name": "Quero",
+          "values": 1
+        },
+        {
+          "name": "Panco",
+          "values": 1
+        },
+        {
+          "name": "Nissin-Miojo",
+          "values": 1
+        },
+        {
+          "name": "Nissin",
+          "values": 5
+        }
+      ]
+    },
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Nissin",
+          "values": 2
+        }
+      ]
+    }
+  ]
+}

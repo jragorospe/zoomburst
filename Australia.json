@@ -1,0 +1,44 @@
+{
+  "name": "Australia",
+  "children": [
+    {
+      "name": "Bowl",
+      "children": [
+        {
+          "name": "Suimin",
+          "values": 3
+        }
+      ]
+    },
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Fantastic",
+          "values": 6
+        },
+        {
+          "name": "Suimin",
+          "values": 8
+        },
+        {
+          "name": "Singa-Me",
+          "values": 3
+        }
+      ]
+    },
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "Maggi",
+          "values": 1
+        },
+        {
+          "name": "Trident",
+          "values": 4
+        }
+      ]
+    }
+  ]
+}

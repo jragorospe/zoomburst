@@ -1,0 +1,105 @@
+{
+  "name": "Singapore",
+  "children": [
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "Prima Taste",
+          "values": 11
+        },
+        {
+          "name": "Myojo",
+          "values": 14
+        },
+        {
+          "name": "Miandom",
+          "values": 1
+        },
+        {
+          "name": "KOKA",
+          "values": 21
+        },
+        {
+          "name": "Nissin",
+          "values": 15
+        },
+        {
+          "name": "Prima",
+          "values": 4
+        },
+        {
+          "name": "MyKuali",
+          "values": 1
+        },
+        {
+          "name": "Happy Family",
+          "values": 2
+        },
+        {
+          "name": "Koka",
+          "values": 13
+        },
+        {
+          "name": "Maggi",
+          "values": 5
+        }
+      ]
+    },
+    {
+      "name": "Tray",
+      "children": [
+        {
+          "name": "Nissin",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Miandom",
+          "values": 2
+        },
+        {
+          "name": "Nissin",
+          "values": 15
+        },
+        {
+          "name": "KOKA",
+          "values": 11
+        },
+        {
+          "name": "Koka",
+          "values": 2
+        },
+        {
+          "name": "Snapdragon",
+          "values": 4
+        }
+      ]
+    },
+    {
+      "name": "Bowl",
+      "children": [
+        {
+          "name": "KOKA",
+          "values": 4
+        },
+        {
+          "name": "Myojo",
+          "values": 5
+        },
+        {
+          "name": "Nissin",
+          "values": 2
+        },
+        {
+          "name": "Koka",
+          "values": 3
+        }
+      ]
+    }
+  ]
+}

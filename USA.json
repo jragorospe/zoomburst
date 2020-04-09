@@ -1,0 +1,401 @@
+{
+  "name": "USA",
+  "children": [
+    {
+      "name": "Bowl",
+      "values": [
+        {
+          "name": "Nissin",
+          "values": 20
+        },
+        {
+          "name": "Kang Shi Fu",
+          "values": 2
+        },
+        {
+          "name": "Maruchan",
+          "values": 9
+        },
+        {
+          "name": "Nasoya",
+          "values": 1
+        },
+        {
+          "name": "Nona Lim",
+          "values": 3
+        },
+        {
+          "name": "Nissin ",
+          "values": 1
+        },
+        {
+          "name": "Sapporo Ichiban",
+          "values": 1
+        },
+        {
+          "name": "COCO 2.0",
+          "values": 1
+        },
+        {
+          "name": "Jinya Ramen Bar",
+          "values": 1
+        },
+        {
+          "name": "Tapatio",
+          "values": 2
+        },
+        {
+          "name": "Blount",
+          "values": 3
+        },
+        {
+          "name": "Myojo",
+          "values": 4
+        },
+        {
+          "name": "Daifuku",
+          "values": 1
+        },
+        {
+          "name": "Dream Kitchen",
+          "values": 1
+        },
+        {
+          "name": "Goku-Uma",
+          "values": 4
+        },
+        {
+          "name": "Farmer's Heart",
+          "values": 1
+        },
+        {
+          "name": "Nongshim",
+          "values": 20
+        },
+        {
+          "name": "Thai Smile",
+          "values": 3
+        },
+        {
+          "name": "Authentically Asian",
+          "values": 1
+        },
+        {
+          "name": "One Dish Asia",
+          "values": 1
+        },
+        {
+          "name": "Osaka Ramen",
+          "values": 1
+        },
+        {
+          "name": "Snapdragon",
+          "values": 1
+        },
+        {
+          "name": "Annie Chun's",
+          "values": 4
+        },
+        {
+          "name": "Hosoonyi",
+          "values": 1
+        },
+        {
+          "name": "Thai Kitchen",
+          "values": 3
+        },
+        {
+          "name": "Tayho",
+          "values": 1
+        },
+        {
+          "name": "Teriyaki Time",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Tray",
+      "children": [
+        {
+          "name": "Maruchan",
+          "values": 15
+        },
+        {
+          "name": "IbuRamen",
+          "values": 3
+        },
+        {
+          "name": "Nissin",
+          "values": 20
+        },
+        {
+          "name": "Thai Pavilion",
+          "values": 3
+        },
+        {
+          "name": "Thai Kitchen",
+          "values": 2
+        },
+        {
+          "name": "Sun Noodle",
+          "values": 6
+        },
+        {
+          "name": "Annie Chun's",
+          "values": 3
+        },
+        {
+          "name": "US Canning",
+          "values": 1
+        },
+        {
+          "name": "Fu Chang Chinese Noodle Company",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Cup",
+      "children": [
+        {
+          "name": "Nissin",
+          "values": 45
+        },
+        {
+          "name": "Mama Pat's",
+          "values": 2
+        },
+        {
+          "name": "Jinmailang",
+          "values": 2
+        },
+        {
+          "name": "Nongshim",
+          "values": 7
+        },
+        {
+          "name": "Trader Joe's",
+          "values": 2
+        },
+        {
+          "name": "Mike's Mighty Good Craft Ramen",
+          "values": 3
+        },
+        {
+          "name": "Maruchan",
+          "values": 17
+        },
+        {
+          "name": "Dr. McDougall's",
+          "values": 1
+        },
+        {
+          "name": "Gefen",
+          "values": 1
+        },
+        {
+          "name": "Dream Kitchen",
+          "values": 3
+        },
+        {
+          "name": "Crystal Noodle",
+          "values": 1
+        },
+        {
+          "name": "Right Foods",
+          "values": 1
+        },
+        {
+          "name": "Sapporo Ichiban",
+          "values": 4
+        },
+        {
+          "name": "Tradition",
+          "values": 3
+        }
+      ]
+    },
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "Maruchan",
+          "values": 22
+        },
+        {
+          "name": "Vite Ramen",
+          "values": 8
+        },
+        {
+          "name": "Ramen Hero",
+          "values": 4
+        },
+        {
+          "name": "Mama Pat's",
+          "values": 5
+        },
+        {
+          "name": "Yamachan",
+          "values": 12
+        },
+        {
+          "name": "Nongshim",
+          "values": 14
+        },
+        {
+          "name": "Sapporo Ichiban",
+          "values": 8
+        },
+        {
+          "name": "Hakubaku",
+          "values": 2
+        },
+        {
+          "name": "Myojo",
+          "values": 4
+        },
+        {
+          "name": "Nissin",
+          "values": 26
+        },
+        {
+          "name": "Mike's Mighty Good Craft Ramen",
+          "values": 6
+        },
+        {
+          "name": "Nona Lim",
+          "values": 8
+        },
+        {
+          "name": "Jackpot Teriyaki",
+          "values": 1
+        },
+        {
+          "name": "Shirakiku",
+          "values": 4
+        },
+        {
+          "name": "Roland",
+          "values": 2
+        },
+        {
+          "name": "Koyo",
+          "values": 7
+        },
+        {
+          "name": "Fortune",
+          "values": 4
+        },
+        {
+          "name": "Annie Chun's",
+          "values": 5
+        },
+        {
+          "name": "Miracle Noodle",
+          "values": 1
+        },
+        {
+          "name": "Lotus Foods",
+          "values": 3
+        },
+        {
+          "name": "Sakura Noodle",
+          "values": 5
+        },
+        {
+          "name": "Tasty Bite",
+          "values": 6
+        },
+        {
+          "name": "Star Anise Foods",
+          "values": 1
+        },
+        {
+          "name": "Tradition",
+          "values": 2
+        },
+        {
+          "name": "S&S",
+          "values": 1
+        },
+        {
+          "name": "Sun Noodle",
+          "values": 1
+        },
+        {
+          "name": "Thai Kitchen",
+          "values": 5
+        },
+        {
+          "name": "Mexi-Ramen",
+          "values": 1
+        },
+        {
+          "name": "Gefen",
+          "values": 3
+        },
+        {
+          "name": "Chikara",
+          "values": 1
+        },
+        {
+          "name": "Smack",
+          "values": 1
+        },
+        {
+          "name": "Westbrae",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Box",
+      "children": [
+        {
+          "name": "Simply Asia",
+          "values": 1
+        },
+        {
+          "name": "Lipton",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Restaurant",
+      "children": [
+        {
+          "name": "Shibu Ramen",
+          "values": 1
+        },
+        {
+          "name": "Kizuki Ramen & Izakaya",
+          "values": 1
+        },
+        {
+          "name": "Hokkaido Ramen Santouka",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Can",
+      "children": [
+        {
+          "name": "Pringles",
+          "values": 1
+        }
+      ]
+    },
+    {
+      "name": "Bar",
+      "children": [
+        {
+          "name": "Komforte Chockolates",
+          "values": 1
+        }
+      ]
+    }
+  ]
+}

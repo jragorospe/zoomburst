@@ -1,0 +1,18 @@
+{
+  "name": "Fiji",
+  "children": [
+    {
+      "name": "Pack",
+      "children": [
+        {
+          "name": "Maggi",
+          "values": 2
+        },
+        {
+          "name": "FMF",
+          "values": 2
+        }
+      ]
+    }
+  ]
+}
