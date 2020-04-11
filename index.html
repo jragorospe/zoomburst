@@ -35,14 +35,14 @@
 <input type="text" id="fname" name="fname"><br><br>
 <button type="button" onclick="updateData()">Update</button>
 <select id="Countries" onchange="updateData()">
-    <option value="ramen">World</option>
+    <option value="World">World</option>
     <option value="Australia">Australia</option>
     <option value="Bangladesh">Bangladesh</option>
     <option value="Brazil">Brazil</option>
     <option value="Cambodia">Cambodia</option>
     <option value="Canada">Canada</option>
     <option value="China">China</option>
-    <option value="Columbia">Columbia</option>
+    <option value="Colombia">Colombia</option>
     <option value="Dubai">Dubai</option>
     <option value="Estonia">Estonia</option>
     <option value="Fiji">Fiji</option>
@@ -100,13 +100,20 @@
         .innerRadius(d => d.y0 * radius)
         .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
 
+
     const partition = data => {
         const root = d3.hierarchy(data)
-            .sum(d => d.values)
+            .sum(d => d.count)
             .sort((a, b) => b.value - a.value);
         return d3.partition()
             .size([2 * Math.PI, root.height + 1])(root);
     };
+
+    var keys = ["Pack", "Bowl", "Cup", "Tray", "Box", "Restaurant", "Can", "Bar"];
+
+    var customColor = d3.scaleOrdinal()
+        .domain(keys)
+        .range(["green", "darkred", "orange", "black", "purple", "brown", "blue", "pink"]);
 
     function arcVisible(d) {
         return d.y1 <= 3 && d.y0 >= 1 && d.x1 > d.x0;
@@ -142,6 +149,7 @@
         txtBox.value = countryFile;
 
         d3.selectAll("g > *").remove();
+        d3.selectAll("svg > *").remove();
 
         d3.json(countryFile).then((data, error) => { // works behind proxy!
             console.log(data);
@@ -166,8 +174,23 @@
                 .join("path")
                 .attr("fill", d => {
                     while (d.depth > 1) { d = d.parent; }
-                    return color(d.data.name);
-                })
+                    if (d.data.name === "Pack") {
+                        return "green"
+                    } else if (d.data.name === "Bowl") {
+                        return "darkred"
+                    } else if (d.data.name === "Cup") {
+                        return "orange"
+                    } else if (d.data.name === "Tray") {
+                        return "black"
+                    } else if (d.data.name === "Box") {
+                        return "purple"
+                    } else if (d.data.name === "Restaurant") {
+                        return "brown"
+                    } else if (d.data.name === "Can") {
+                        return "blue"
+                    } else if (d.data.name === "Bar") {
+                        return "pink"
+                }})
                 .attr("fill-opacity", d =>
                     arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)
                 .attr("d", d => arc(d.current));
@@ -177,7 +200,7 @@
                 .on("click", clicked);
 
             path.append("title")
-                .text(d => `${d.ancestors().map(d => d.data.name).reverse().join("/")}\nCount: ${format(d.value)}`);
+                .text(d => `${d.data.name}\nCount: ${format(d.value)}\nAve. Rating: ${d3.format(",.2f")(d.data.stars)}`);
 
             const label = g.append("g")
                 .attr("pointer-events", "none")
@@ -196,7 +219,34 @@
                 .attr("r", radius)
                 .attr("fill", "none")
                 .attr("pointer-events", "all")
-                .on("click", clicked);
+                .style("cursor", "pointer")
+                .on("click", clicked)
+                .append("title")
+                .append("label")
+                .join("text")
+                .text(d => `${d.data.name}\nCount: ${format(d.value)}\nAve. Rating: ${d3.format(",.2f")(d.data.stars)}`);
+
+            const size = 16;
+            svg.selectAll("dots")
+                .data(keys)
+                .enter()
+                .append("rect")
+                .attr("x", 800)
+                .attr("y", function(d,i){ return 550 + i*(size+5)})
+                .attr("width", size)
+                .attr("height", size)
+                .style("fill", function(d){ return customColor(d)});
+
+
+            svg.selectAll("dotLabels")
+                .data(keys)
+                .enter()
+                .append("text")
+                .style("text-anchor", "start")
+                .attr("x", 800 + size*1.2)
+                .attr("y", function(d,i){ return 554 + i*(size+5) + (size/2)})
+                .style("fill", "black")
+                .text(function(d){ return d });
 
             function clicked(p) {
                 parent.datum(p.parent || root);
