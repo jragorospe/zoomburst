@@ -1,16 +1,24 @@
 {
   "name": "Italy",
+  "stars": 2.75,
   "children": [
     {
       "name": "Pack",
+      "stars": 2.75,
       "children": [
         {
           "name": "Buitoni",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.4166666666666665
+
         },
         {
           "name": "Saikebon",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         }
       ]
     }

@@ -1,24 +1,38 @@
 {
   "name": "Hungary",
+  "stars": 3.611111111111111,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.611111111111111,
       "children": [
         {
           "name": "Nissin",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Bonasia",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.4166666666666665
+
         },
         {
           "name": "Asia Gold",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.4375
+
         },
         {
           "name": "Thai Chef",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.75
+
         }
       ]
     }

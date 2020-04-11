@@ -1,57 +1,93 @@
 {
   "name": "India",
+  "stars": 3.3719512195121952,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.4191176470588234,
       "children": [
         {
           "name": "Maggi",
-          "values": 18
+          
+            "count": 18,
+            "stars": 3.2083333333333335
+
         },
         {
           "name": "Ching's Secret",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.75
+
         },
         {
           "name": "Sunfeast",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+
         },
         {
           "name": "TRDP",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Nissin",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.9166666666666665
+
         },
         {
           "name": "Wai Wai",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3
+
         },
         {
           "name": "1 To 3 Noodles",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Patanjali",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Chaudhary's Wai Wai",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.5
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.142857142857143,
       "children": [
         {
           "name": "Maggi",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.625
+
         },
         {
           "name": "Nissin",
-          "values": 5
+          
+            "count": 5,
+            "stars": 2.95
+
         }
       ]
     }

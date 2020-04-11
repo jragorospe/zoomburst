@@ -1,175 +1,294 @@
 {
   "name": "Thailand",
+  "stars": 3.414663461538462,
   "children": [
     {
       "name": "Bowl",
-      "values": [
+      "stars": 3.141304347826087,
+      "children": [
         {
           "name": "Little Cook",
-          "values": 8
+          
+            "count": 8,
+            "stars": 3.40625
+
         },
         {
           "name": "Picnic",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Fashion Food",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.0833333333333335
+
         },
         {
           "name": "MAMA",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.125
+
         },
         {
           "name": "President Rice",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.75
+
         },
         {
           "name": "7 Select",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.625
+
         },
         {
           "name": "Yum Yum",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.5
+
         },
         {
           "name": "Wai Wai",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.5
+
         },
         {
           "name": "Mama",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.6875
+
         },
         {
           "name": "Sunlee",
-          "values": 8
+          
+            "count": 8,
+            "stars": 3
+
         },
         {
           "name": "Kim's Bowl",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Fashion Foods",
-          "values": 5
+          
+            "count": 5,
+            "stars": 1.8
+
         },
         {
           "name": "Mee Jang",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.2857142857142856
+
         },
         {
           "name": "Boss",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.5
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.4292452830188687,
       "children": [
         {
           "name": "MAMA",
-          "values": 15
+          
+            "count": 15,
+            "stars": 3.8833333333333333
+
         },
         {
           "name": "Yum Yum",
-          "values": 15
+          
+            "count": 15,
+            "stars": 3.8
+
         },
         {
           "name": "Tao Kae Noi",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Nissin",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.9
+
         },
         {
           "name": "Zow Zow",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Bamee",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.3333333333333335
+
         },
         {
           "name": "Mama",
-          "values": 37
+          
+            "count": 37,
+            "stars": 3.4364864864864857
+
         },
         {
           "name": "Wai Wai",
-          "values": 19
+          
+            "count": 19,
+            "stars": 2.860526315789474
+
         },
         {
           "name": "Ruski",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.85
+
         },
         {
           "name": "Papa",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         },
         {
           "name": "GreeNoodle",
-          "values": 4
+          
+            "count": 4,
+            "stars": 1.5
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.6064814814814814,
       "children": [
         {
           "name": "Yum Yum",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.875
+
         },
         {
           "name": "Kaset",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Nissin",
-          "values": 12
+          
+            "count": 12,
+            "stars": 3.625
+
         },
         {
           "name": "MAMA",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.5
+
         },
         {
           "name": "Mama",
-          "values": 17
+          
+            "count": 17,
+            "stars": 3.75
+
         },
         {
           "name": "Wai Wai",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.25
+
         },
         {
           "name": "Little Cook",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.0833333333333335
+
         },
         {
           "name": "7 Select/Nissin",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Bamee",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         },
         {
           "name": "Thai Choice",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.4166666666666665
+
         },
         {
           "name": "Knorr",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Royal Umbrella",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3
+
         }
       ]
     },
     {
       "name": "Tray",
+      "stars": 3.75,
       "children": [
         {
           "name": "Kin-Dee",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.75
+
         }
       ]
     }

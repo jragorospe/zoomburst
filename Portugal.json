@@ -1,12 +1,15 @@
 {
   "name": "Portugal",
+  "stars": 2,
   "children": [
     {
       "name": "Cup",
+      "stars": 2,
       "children": [
         {
           "name": "Cigala",
-          "values": 1
+          "count": 1,
+          "stars": 2
         }
       ]
     }

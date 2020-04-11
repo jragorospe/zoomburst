@@ -1,103 +1,168 @@
 {
   "name": "Singapore",
+  "stars": 4.108455882352941,
   "children": [
     {
       "name": "Pack",
+      "stars": 4.175287356321839,
       "children": [
         {
           "name": "Prima Taste",
-          "values": 11
+          
+            "count": 11,
+            "stars": 5
+
         },
         {
           "name": "Myojo",
-          "values": 14
+          
+            "count": 14,
+            "stars": 3.982142857142857
+
         },
         {
           "name": "Miandom",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "KOKA",
-          "values": 21
+          
+            "count": 21,
+            "stars": 3.869047619047619
+
         },
         {
           "name": "Nissin",
-          "values": 15
+          
+            "count": 15,
+            "stars": 4.183333333333334
+
         },
         {
           "name": "Prima",
-          "values": 4
+          
+            "count": 4,
+            "stars": 5
+
         },
         {
           "name": "MyKuali",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Happy Family",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.875
+
         },
         {
           "name": "Koka",
-          "values": 13
+          
+            "count": 13,
+            "stars": 3.923076923076923
+
         },
         {
           "name": "Maggi",
-          "values": 5
+          
+            "count": 5,
+            "stars": 4.25
+
         }
       ]
     },
     {
       "name": "Tray",
+      "stars": 4.75,
       "children": [
         {
           "name": "Nissin",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.75
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.8970588235294117,
       "children": [
         {
           "name": "Miandom",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.25
+
         },
         {
           "name": "Nissin",
-          "values": 15
+          
+            "count": 15,
+            "stars": 4.116666666666666
+
         },
         {
           "name": "KOKA",
-          "values": 11
+          
+            "count": 11,
+            "stars": 4.068181818181818
+
         },
         {
           "name": "Koka",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.875
+
         },
         {
           "name": "Snapdragon",
-          "values": 4
+          
+            "count": 4,
+            "stars": 2.9375
+
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 4.160714285714286,
       "children": [
         {
           "name": "KOKA",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.5625
+
         },
         {
           "name": "Myojo",
-          "values": 5
+          
+            "count": 5,
+            "stars": 4.35
+
         },
         {
           "name": "Nissin",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.75
+
         },
         {
           "name": "Koka",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.5833333333333335
+
         }
       ]
     }

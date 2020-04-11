@@ -1,42 +1,64 @@
 {
   "name": "Mexico",
+  "stars": 3.609375,
   "children": [
     {
       "name": "Tray",
+      "stars": 2.8333333333333335,
       "children": [
         {
           "name": "Nissin",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.8333333333333335
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.736842105263158,
       "children": [
         {
           "name": "Nissin",
-          "values": 19
+          
+            "count": 19,
+            "stars": 3.736842105263158
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.6,
       "children": [
         {
           "name": "Nissin",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.6666666666666665
+
         },
         {
           "name": "Ottogi",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.75
+
         },
         {
           "name": "Maruchan",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.375
+
         },
         {
           "name": "La Moderna",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         }
       ]
     }

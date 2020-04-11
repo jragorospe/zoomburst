@@ -1,12 +1,17 @@
 {
   "name": "Nepal",
+  "stars": 3.517857142857143,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.517857142857143,
       "children": [
         {
           "name": "Asian Thai Foods",
-          "values": 14
+          
+            "count": 14,
+            "stars": 3.517857142857143
+
         }
       ]
     }

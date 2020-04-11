@@ -1,27 +1,39 @@
 {
-    "name": "Poland",
-    "children": [
-      {
-        "name": "Cup",
-        "children": [
-          {
-            "name": "Ajinomoto",
-            "values": 1
-          }
-        ]
-      },
-      {
-        "name": "Pack",
-        "children": [
-          {
-            "name": "Vifon",
-            "values": 2
-          },
-          {
-            "name": "Amino",
-            "values": 3
-          }
-        ]
-      }
-    ]
-  }
+  "name": "Poland",
+  "stars": 3.0833333333333335,
+  "children": [
+    {
+      "name": "Cup",
+      "stars": 2,
+      "children": [
+        {
+          "name": "Ajinomoto",
+          
+            "count": 1,
+            "stars": 2
+
+        }
+      ]
+    },
+    {
+      "name": "Pack",
+      "stars": 3.3,
+      "children": [
+        {
+          "name": "Vifon",
+          
+            "count": 2,
+            "stars": 3
+
+        },
+        {
+          "name": "Amino",
+          
+            "count": 3,
+            "stars": 3.5
+
+        }
+      ]
+    }
+  ]
+}

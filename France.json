@@ -1,12 +1,17 @@
 {
   "name": "France",
+  "stars": 4.1875,
   "children": [
     {
       "name": "Cup",
+      "stars": 4.1875,
       "children": [
         {
           "name": "Maison de Coree",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.1875
+
         }
       ]
     }

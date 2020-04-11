@@ -1,37 +1,58 @@
 {
   "name": "Brazil",
+  "stars": 3.675,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.5694444444444446,
       "children": [
         {
           "name": "Nissin Miojo",
-          "values": 10
+          
+            "count": 10,
+            "stars": 3.275
+
         },
         {
           "name": "Quero",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Panco",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Nissin-Miojo",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Nissin",
-          "values": 5
+          
+            "count": 5,
+            "stars": 4.1
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 4.625,
       "children": [
         {
           "name": "Nissin",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.625
+
         }
       ]
     }

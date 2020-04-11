@@ -1,24 +1,38 @@
 {
   "name": "Bangladesh",
+  "stars": 3.4791666666666665,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.4791666666666665,
       "children": [
         {
           "name": "Canton",
-          "values": 5
+
+          "count": 5,
+          "stars": 3.15
+
         },
         {
           "name": "Pran",
-          "values": 2
+
+          "count": 2,
+          "stars": 4
+
         },
         {
           "name": "MAMA",
-          "values": 1
+
+          "count": 1,
+          "stars": 3.5
+
         },
         {
           "name": "Mama",
-          "values": 4
+
+          "count": 4,
+          "stars": 3.625
+
         }
       ]
     }

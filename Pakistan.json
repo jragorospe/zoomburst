@@ -1,20 +1,31 @@
 {
   "name": "Pakistan",
+  "stars": 2.9166666666666665,
   "children": [
     {
       "name": "Pack",
+      "stars": 2.9166666666666665,
       "children": [
         {
           "name": "Knorr",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.1666666666666665
+
         },
         {
           "name": "Morre",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Shan",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.2
+
         }
       ]
     }

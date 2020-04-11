@@ -1,37 +1,58 @@
 {
   "name": "Germany",
+  "stars": 3.580357142857143,
   "children": [
     {
       "name": "Cup",
+      "stars": 3.5625,
       "children": [
         {
           "name": "Lien Ying",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2
+
         },
         {
           "name": "Nissin",
-          "values": 11
+          
+            "count": 11,
+            "stars": 3.7045454545454546
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.59375,
       "children": [
         {
           "name": "Nissin",
-          "values": 11
+          
+            "count": 11,
+            "stars": 3.6818181818181817
+
         },
         {
           "name": "Bonasia",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Thai Chef",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.3333333333333335
+
         },
         {
           "name": "Bamee",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         }
       ]
     }

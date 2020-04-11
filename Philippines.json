@@ -1,50 +1,78 @@
 {
   "name": "Philippines",
+  "stars": 3.3823529411764706,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.389705882352941,
       "children": [
         {
           "name": "Payless",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.892857142857143
+
         },
         {
           "name": "Lucky Me!",
-          "values": 23
+          
+            "count": 23,
+            "stars": 3.260869565217391
+
         },
         {
           "name": "Quickchow",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.25
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.357142857142857,
       "children": [
         {
           "name": "Nissin",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.4375
+
         },
         {
           "name": "Lucky Me!",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         },
         {
           "name": "Pamana",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Quickchow",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3
+
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 3.375,
       "children": [
         {
           "name": "Lucky Me!",
-          "values": 10
+          
+            "count": 10,
+            "stars": 3.375
+
         }
       ]
     }

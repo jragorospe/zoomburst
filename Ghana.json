@@ -1,16 +1,24 @@
 {
   "name": "Ghana",
+  "stars": 3.5,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.5,
       "children": [
         {
           "name": "Yum-Mie",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Lele",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         }
       ]
     }

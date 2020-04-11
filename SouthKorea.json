@@ -1,275 +1,343 @@
 {
   "name": "South Korea",
+  "stars": 3.8594488188976372,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.9433628318584066,
       "children": [
         {
           "name": "Paldo",
-          "values": 42
+          "count": 42,
+          "stars": 4.095238095238095
         },
         {
           "name": "Samyang Foods",
-          "values": 57
+          "count": 57,
+          "stars": 4.285714285714286
         },
         {
           "name": "Jongga",
-          "values": 1
+          "count": 1,
+          "stars": 3.75
         },
         {
           "name": "Samlip",
-          "values": 2
+          "count": 2,
+          "stars": 4.25
         },
         {
           "name": "Palkin",
-          "values": 1
+          "count": 1,
+          "stars": 3.5
         },
         {
           "name": "Nongshim",
-          "values": 38
+          "count": 38,
+          "stars": 4.190789473684211
         },
         {
           "name": "Atomy",
-          "values": 1
+          "count": 1,
+          "stars": 4.5
         },
         {
           "name": "Easybab",
-          "values": 1
+          "count": 1,
+          "stars": 3.75
         },
         {
           "name": "Fox",
-          "values": 1
+          "count": 1,
+          "stars": 4
         },
         {
           "name": "Neko",
-          "values": 1
+          "count": 1,
+          "stars": 5
         },
         {
           "name": "Ottogi",
-          "values": 29
+          "count": 29,
+          "stars": 3.303571428571428
         },
         {
           "name": "Gookmul",
-          "values": 2
+          "count": 2,
+          "stars": 4.25
         },
         {
           "name": "No Brand",
-          "values": 1
+          "count": 1,
+          "stars": 3.5
         },
         {
           "name": "Pulmuone",
-          "values": 8
+          "count": 8,
+          "stars": 3.8125
         },
         {
           "name": "Sempio",
-          "values": 1
+          "count": 1,
+          "stars": 5
         },
         {
           "name": "Migawon",
-          "values": 1
+          "count": 1,
+          "stars": 3.5
         },
         {
           "name": "Emart",
-          "values": 4
+          "count": 4,
+          "stars": 4.125
         },
         {
           "name": "Hi-Myon",
-          "values": 2
+          "count": 2,
+          "stars": 4
         },
         {
           "name": "HoMyeonDang",
-          "values": 5
+          "count": 5,
+          "stars": 4.1
         },
         {
           "name": "GS25",
-          "values": 2
+          "count": 2,
+          "stars": 4.25
         },
         {
           "name": "Samyang",
-          "values": 14
+          "count": 14,
+          "stars": 3.246428571428571
         },
         {
           "name": "Ohsung",
-          "values": 2
+          "count": 2,
+          "stars": 3.5
         },
         {
           "name": "Mr. Udon",
-          "values": 4
+          "count": 4,
+          "stars": 3.125
         },
         {
           "name": "Six Fortune",
-          "values": 6
+          "count": 6,
+          "stars": 3.0833333333333335
         },
         {
           "name": "Sahmyook",
-          "values": 1
+          "count": 1,
+          "stars": 3.25
         },
         {
           "name": "Saigon Ve Wong",
-          "values": 1
+          "count": 1,
+          "stars": 3.25
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 3.8926630434782608,
       "children": [
         {
           "name": "Samyang Foods",
-          "values": 28
+          "count": 28,
+          "stars": 3.830357142857143
         },
         {
           "name": "Paldo",
-          "values": 18
+          "count": 18,
+          "stars": 4.173611111111111
         },
         {
           "name": "O'taste",
-          "values": 3
+          "count": 3,
+          "stars": 5
         },
         {
           "name": "Chil Kab Farm Products",
-          "values": 1
+          "count": 1,
+          "stars": 5
         },
         {
           "name": "Wang",
-          "values": 8
+          "count": 8,
+          "stars": 3.4375
         },
         {
           "name": "Nongshim",
-          "values": 8
+          "count": 8,
+          "stars": 3.5
         },
         {
           "name": "ChoripDong",
-          "values": 1
+          "count": 1,
+          "stars": 5
         },
         {
           "name": "Ottogi",
-          "values": 8
+          "count": 8,
+          "stars": 3.5625
         },
         {
           "name": "Good Tto Leu Foods",
-          "values": 1
+          "count": 1,
+          "stars": 4
         },
         {
           "name": "Song Hak",
-          "values": 1
+          "count": 1,
+          "stars": 5
         },
         {
           "name": "CJ CheilJedang",
-          "values": 1
+          "count": 1,
+          "stars": 3.75
         },
         {
           "name": "Sempio",
-          "values": 2
+          "count": 2,
+          "stars": 3.875
         },
         {
           "name": "Dongwon",
-          "values": 1
+          "count": 1,
+          "stars": 4.5
         },
         {
           "name": "Ohsung",
-          "values": 1
+          "count": 1,
+          "stars": 3.5
         },
         {
           "name": "Sura",
-          "values": 1
+          "count": 1,
+          "stars": 3.75
         },
         {
           "name": "Haioreum",
-          "values": 1
+          "count": 1,
+          "stars": 3.5
         },
         {
           "name": "Foodmon",
-          "values": 2
+          "count": 2,
+          "stars": 5
         },
         {
           "name": "Samyang",
-          "values": 3
+          "count": 3,
+          "stars": 3.8333333333333335
         },
         {
           "name": "Bon Go Jang",
-          "values": 1
+          "count": 1,
+          "stars": 3
         },
         {
           "name": "Chorip Dong",
-          "values": 1
+          "count": 1,
+          "stars": 4.25
         },
         {
           "name": "Global Inspiration",
-          "values": 1
+          "count": 1,
+          "stars": 2.25
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.522222222222222,
       "children": [
         {
           "name": "Paldo",
-          "values": 10
+          "count": 10,
+          "stars": 3.7
         },
         {
           "name": "Samyang Foods",
-          "values": 6
+          "count": 6,
+          "stars": 3.8333333333333335
         },
         {
           "name": "Nongshim",
-          "values": 13
+          "count": 13,
+          "stars": 3.673076923076923
         },
         {
           "name": "Emart",
-          "values": 3
+          "count": 3,
+          "stars": 3.4166666666666665
         },
         {
           "name": "Ottogi",
-          "values": 7
+          "count": 7,
+          "stars": 3.5
         },
         {
           "name": "CJ CheilJedang",
-          "values": 1
+          "count": 1,
+          "stars": 2
         },
         {
           "name": "O Sung",
-          "values": 1
+          "count": 1,
+          "stars": 2.5
         },
         {
           "name": "Samyang",
-          "values": 2
+          "count": 2,
+          "stars": 3.25
         },
         {
           "name": "Noodle Time",
-          "values": 1
+          "count": 1,
+          "stars": 3
         },
         {
           "name": "Sutah",
-          "values": 1
+          "count": 1,
+          "stars": 2
         }
       ]
     },
     {
       "name": "Tray",
+      "stars": 3.4791666666666665,
       "children": [
         {
           "name": "Guava Story",
-          "values": 1
+          "count": 1,
+          "stars": 1
         },
         {
           "name": "Nongshim",
-          "values": 2
+          "count": 2,
+          "stars": 4.75
         },
         {
           "name": "Han's South Korea",
-          "values": 3
+          "count": 3,
+          "stars": 3.25
         },
         {
           "name": "Rhee Bros Assi",
-          "values": 6
+          "count": 6,
+          "stars": 3.4583333333333335
         },
         {
           "name": "Bon Go Jang",
-          "values": 1
+          "count": 1,
+          "stars": 3.75
         },
         {
           "name": "Paldo",
-          "values": 5
+          "count": 5,
+          "stars": 3.575
         }
       ]
     }

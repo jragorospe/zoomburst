@@ -1,42 +1,64 @@
 {
   "name": "Australia",
+  "stars": 3.26,
   "children": [
     {
       "name": "Bowl",
+      "stars": 5,
       "children": [
         {
           "name": "Suimin",
-          "values": 3
+          
+            "count": 3,
+            "stars": 5
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 2.9705882352941178,
       "children": [
         {
           "name": "Fantastic",
-          "values": 6
+          
+            "count": 6,
+            "stars": 2.875
+
         },
         {
           "name": "Suimin",
-          "values": 8
+          
+            "count": 8,
+            "stars": 3.125
+
         },
         {
           "name": "Singa-Me",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.75
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.2,
       "children": [
         {
           "name": "Maggi",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Trident",
-          "values": 4
+          
+            "count": 4,
+            "stars": 2.75
+
         }
       ]
     }

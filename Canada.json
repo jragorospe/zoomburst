@@ -1,106 +1,176 @@
 {
   "name": "Canada",
+  "stars": 2.330357142857143,
   "children": [
     {
       "name": "Cup",
+      "stars": 2,
       "children": [
         {
           "name": "Rooster",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.625
+
         },
         {
           "name": "Bowlfull",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Great Value",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.9166666666666665
+
         },
         {
           "name": "Azami",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.0833333333333335
+
         },
         {
           "name": "No Name",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.375
+
         },
         {
           "name": "Campbell's",
-          "values": 3
+          
+            "count": 3,
+            "stars": 1
+
         },
         {
           "name": "Western Family",
-          "values": 3
+          
+            "count": 3,
+            "stars": 1.9166666666666667
+
         },
         {
           "name": "Mr. Noodles",
-          "values": 3
+          
+            "count": 3,
+            "stars": 1.4166666666666667
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 2.6354166666666665,
       "children": [
         {
           "name": "No Name",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.25
+
         },
         {
           "name": "Rooster",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.75
+
         },
         {
           "name": "Suraj",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2
+
         },
         {
           "name": "Bowlfull",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Great Value",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.5
+
         },
         {
           "name": "Azami",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Western Family",
-          "values": 3
+          
+            "count": 3,
+            "stars": 1.5
+
         },
         {
           "name": "Sapporo Ichiban",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Mr. Noodles",
-          "values": 7
+          
+            "count": 7,
+            "stars": 2.392857142857143
+
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 2.2708333333333335,
       "children": [
         {
           "name": "Rooster",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3
+
         },
         {
           "name": "Mr. Noodles",
-          "values": 6
+          
+            "count": 6,
+            "stars": 1.5416666666666667
+
         },
         {
           "name": "Azami",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Plats Du Chef",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Noodle Time",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0.5
+
         }
       ]
     }

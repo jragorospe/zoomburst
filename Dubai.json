@@ -1,12 +1,17 @@
 {
   "name": "Dubai",
+  "stars": 3.5833333333333335,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.5833333333333335,
       "children": [
         {
           "name": "Golden Mie",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.5833333333333335
+
         }
       ]
     }

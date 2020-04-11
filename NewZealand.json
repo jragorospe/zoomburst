@@ -1,12 +1,17 @@
 {
   "name": "New Zealand",
+  "stars": 3,
   "children": [
     {
       "name": "Box",
+      "stars": 3,
       "children": [
         {
           "name": "Culley's",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3
+
         }
       ]
     }

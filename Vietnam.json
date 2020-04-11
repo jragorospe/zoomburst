@@ -1,135 +1,224 @@
 {
   "name": "Vietnam",
+  "stars": 3.170089285714286,
   "children": [
     {
       "name": "Cup",
+      "stars": 2.8863636363636362,
       "children": [
         {
           "name": "Micoem",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "nunu",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Banzai",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Vina Acecook",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.5
+
         },
         {
           "name": "A-One",
-          "values": 4
+          
+            "count": 4,
+            "stars": 2.75
+
         },
         {
           "name": "Vifon",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.5833333333333335
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.14620253164557,
       "children": [
         {
           "name": "Vifon",
-          "values": 23
+          
+            "count": 23,
+            "stars": 2.7630434782608693
+
         },
         {
           "name": "Binh Tay",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.4166666666666665
+
         },
         {
           "name": "Uni-President",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Mum Ngon",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Acecook",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Thien Houng Foods",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         },
         {
           "name": "Paldo Vina",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.5833333333333335
+
         },
         {
           "name": "Vina Acecook",
-          "values": 28
+          
+            "count": 28,
+            "stars": 3.5357142857142856
+
         },
         {
           "name": "United",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.9166666666666665
+
         },
         {
           "name": "Miliket",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Unif / Tung-I",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Gau Do",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.125
+
         },
         {
           "name": "Omachi",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Ve Wong",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.8333333333333335
+
         },
         {
           "name": "Gomex",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.875
+
         },
         {
           "name": "Saigon Ve Wong",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.45
+
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 3.3625,
       "children": [
         {
           "name": "Vifon",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.6785714285714284
+
         },
         {
           "name": "Vina Acecook",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.8125
+
         },
         {
           "name": "Saigon Ve Wong",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.0714285714285716
+
         },
         {
           "name": "Noah Foods",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.375
+
         }
       ]
     },
     {
       "name": "Tray",
+      "stars": 3.75,
       "children": [
         {
           "name": "New Way",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Vina Acecook",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         }
       ]
     }

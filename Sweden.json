@@ -1,16 +1,24 @@
 {
   "name": "Sweden",
+  "stars": 3.25,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.25,
       "children": [
         {
           "name": "ICA",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.125
+
         },
         {
           "name": "Katoz",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         }
       ]
     }

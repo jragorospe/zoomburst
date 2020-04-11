@@ -1,376 +1,643 @@
 {
   "name": "Taiwan",
+  "stars": 3.846011396011396,
   "children": [
     {
       "name": "Box",
+      "stars": 4.3076923076923075,
       "children": [
         {
           "name": "Wu Mu",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "A-Sha",
-          "values": 3
+          
+            "count": 3,
+            "stars": 5
+
         },
         {
           "name": "Chef Nic's Noodles",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Mom's Dry Noodle",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4
+
         },
         {
           "name": "Vedan",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.25
+
         },
         {
           "name": "Neo~Essence",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Kiki",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.75
+
         },
         {
           "name": "Happy Noodle",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.8806451612903228,
       "children": [
         {
           "name": "Eight Field",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Three Meters",
-          "values": 2
+          
+            "count": 2,
+            "stars": 5
+
         },
         {
           "name": "Shuang Ren Hsu",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Ve Wong",
-          "values": 15
+          
+            "count": 15,
+            "stars": 3.5766666666666667
+
         },
         {
           "name": "Teishi",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.25
+
         },
         {
           "name": "A-Sha",
-          "values": 7
+          
+            "count": 7,
+            "stars": 4.321428571428571
+
         },
         {
           "name": "Mom's Dry Noodle",
-          "values": 8
+          
+            "count": 8,
+            "stars": 4.875
+
         },
         {
           "name": "Shin Horng",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Tseng Noodles",
-          "values": 8
+          
+            "count": 8,
+            "stars": 4.71875
+
         },
         {
           "name": "Tian Ling Ling",
-          "values": 2
+          
+            "count": 2,
+            "stars": 5
+
         },
         {
           "name": "TIEasy",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.375
+
         },
         {
           "name": "Mazendo",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "TTL",
-          "values": 6
+          
+            "count": 6,
+            "stars": 4.75
+
         },
         {
           "name": "Wu Mu",
-          "values": 8
+          
+            "count": 8,
+            "stars": 3.8125
+
         },
         {
           "name": "Yi Lai Shuen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Fu Chung",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.4166666666666665
+
         },
         {
           "name": "Xiao Ban Mian",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.3125
+
         },
         {
           "name": "Fantastic Noodles",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4
+
         },
         {
           "name": "Wu-Mu",
-          "values": 23
+          
+            "count": 23,
+            "stars": 4.065217391304348
+
         },
         {
           "name": "Vedan",
-          "values": 15
+          
+            "count": 15,
+            "stars": 3.6666666666666665
+
         },
         {
           "name": "Kiki",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.875
+
         },
         {
           "name": "Wei Lih",
-          "values": 20
+          
+            "count": 20,
+            "stars": 3.7125
+
         },
         {
           "name": "Three Meters Noodles",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.75
+
         },
         {
           "name": "Taihodien Restaurant",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2
+
         },
         {
           "name": "LeeZen",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4
+
         },
         {
           "name": "Little Couples Q Noodle",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.9
+
         },
         {
           "name": "Mr. Noodle",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.375
+
         },
         {
           "name": "Meimen",
-          "values": 3
+          
+            "count": 3,
+            "stars": 4
+
         },
         {
           "name": "Jinbo Selection",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         },
         {
           "name": "Happy Noodle",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Tseng Noodle",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Just Way",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.75
+
         },
         {
           "name": "Happy Cook",
-          "values": 3
+          
+            "count": 3,
+            "stars": 4.416666666666667
+
         },
         {
           "name": "Kiki Noodle",
-          "values": 2
+          
+            "count": 2,
+            "stars": 5
+
         },
         {
           "name": "GGE",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Uni-President",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4
+
         },
         {
           "name": "Unif Tung-I",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0.5
+
         },
         {
           "name": "Love Cook",
-          "values": 5
+          
+            "count": 5,
+            "stars": 4.15
+
         },
         {
           "name": "Choumama",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Jingqi",
-          "values": 8
+          
+            "count": 8,
+            "stars": 4.21875
+
         },
         {
           "name": "Oni Hot Pot",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.8125
+
         },
         {
           "name": "Weh Lih",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1
+
         },
         {
           "name": "A-Sha Dry Noodle",
-          "values": 23
+          
+            "count": 23,
+            "stars": 4.163043478260869
+
         },
         {
           "name": "Forest Noodles",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.1875
+
         },
         {
           "name": "Chering Chang",
-          "values": 5
+          
+            "count": 5,
+            "stars": 4.35
+
         },
         {
           "name": "Lishan Food Manufacturing",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Deshome",
-          "values": 13
+          
+            "count": 13,
+            "stars": 4.134615384615385
+
         },
         {
           "name": "Long Jun Hang",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.625
+
         },
         {
           "name": "Sau Tao",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1.75
+
         },
         {
           "name": "China Best",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1
+
         },
         {
           "name": "Amianda",
-          "values": 10
+          
+            "count": 10,
+            "stars": 3.95
+
         },
         {
           "name": "Unif / Tung-I",
-          "values": 10
+          
+            "count": 10,
+            "stars": 3.075
+
         },
         {
           "name": "Long Kow",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1.5
+
         },
         {
           "name": "Lishan",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1.5
+
         },
         {
           "name": "Wei Chuan",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.625
+
         },
         {
           "name": "Wei Wei",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.4166666666666665
+
         },
         {
           "name": "Sunlight",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.1
+
         },
         {
           "name": "Hsin Tung Yang",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "iNoodle",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3
+
         },
         {
           "name": "Q",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         },
         {
           "name": "Souper",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+
         },
         {
           "name": "Sunny Maid",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1.75
+
         },
         {
           "name": "Unif",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.3
+
         },
         {
           "name": "Tung-I",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3
+
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 3.6018518518518516,
       "children": [
         {
           "name": "Uni-President",
-          "values": 7
+          
+            "count": 7,
+            "stars": 4.714285714285714
+
         },
         {
           "name": "Ve Wong",
-          "values": 11
+          
+            "count": 11,
+            "stars": 3.1136363636363638
+
         },
         {
           "name": "Vedan",
-          "values": 10
+          
+            "count": 10,
+            "stars": 3.425
+
         },
         {
           "name": "TTL",
-          "values": 4
+          
+            "count": 4,
+            "stars": 5
+
         },
         {
           "name": "Wei Lih",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.7916666666666665
+
         },
         {
           "name": "Little Cook",
-          "values": 3
+          
+            "count": 3,
+            "stars": 5
+
         },
         {
           "name": "Ten-In",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.5
+
         },
         {
           "name": "Unif",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.75
+
         },
         {
           "name": "Souper",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Nan Hsing",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0.25
+
         },
         {
           "name": "Tiger",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Kim Ve Wong",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         }
       ]
     },
     {
       "name": "Tray",
+      "stars": 3.4166666666666665,
       "children": [
         {
           "name": "A-Sha Dry Noodle",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.4166666666666665
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.25,
       "children": [
         {
           "name": "Vedan",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.75
+
         },
         {
           "name": "Uni-President",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         }
       ]
     }

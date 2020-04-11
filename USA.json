@@ -1,399 +1,674 @@
 {
-  "name": "USA",
+  "name": "United States",
+  "stars": 3.507603406326034,
   "children": [
     {
       "name": "Bowl",
-      "values": [
+      "stars": 3.442934782608696,
+      "children": [
         {
           "name": "Nissin",
-          "values": 20
+          
+            "count": 20,
+            "stars": 3.2625
+
         },
         {
           "name": "Kang Shi Fu",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.125
+
         },
         {
           "name": "Maruchan",
-          "values": 9
+          
+            "count": 9,
+            "stars": 3.9166666666666665
+
         },
         {
           "name": "Nasoya",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1
+
         },
         {
           "name": "Nona Lim",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3
+
         },
         {
           "name": "Nissin ",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Sapporo Ichiban",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         },
         {
           "name": "COCO 2.0",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Jinya Ramen Bar",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Tapatio",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.375
+
         },
         {
           "name": "Blount",
-          "values": 3
+          
+            "count": 3,
+            "stars": 4.916666666666667
+
         },
         {
           "name": "Myojo",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.1875
+
         },
         {
           "name": "Daifuku",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Dream Kitchen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Goku-Uma",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.4375
+
         },
         {
           "name": "Farmer's Heart",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Nongshim",
-          "values": 20
+          
+            "count": 20,
+            "stars": 3.7375
+
         },
         {
           "name": "Thai Smile",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2
+
         },
         {
           "name": "Authentically Asian",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1
+
         },
         {
           "name": "One Dish Asia",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Osaka Ramen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Snapdragon",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+
         },
         {
           "name": "Annie Chun's",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.625
+
         },
         {
           "name": "Hosoonyi",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Thai Kitchen",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.5833333333333335
+
         },
         {
           "name": "Tayho",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1.25
+
         },
         {
           "name": "Teriyaki Time",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2
+
         }
       ]
     },
     {
       "name": "Tray",
+      "stars": 3.4074074074074074,
       "children": [
         {
           "name": "Maruchan",
-          "values": 15
+          
+            "count": 15,
+            "stars": 3.2
+
         },
         {
           "name": "IbuRamen",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.5
+
         },
         {
           "name": "Nissin",
-          "values": 20
+          
+            "count": 20,
+            "stars": 3.6
+
         },
         {
           "name": "Thai Pavilion",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.25
+
         },
         {
           "name": "Thai Kitchen",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.625
+
         },
         {
           "name": "Sun Noodle",
-          "values": 6
+          
+            "count": 6,
+            "stars": 4.458333333333333
+
         },
         {
           "name": "Annie Chun's",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.9166666666666665
+
         },
         {
           "name": "US Canning",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Fu Chang Chinese Noodle Company",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.3410326086956523,
       "children": [
         {
           "name": "Nissin",
-          "values": 45
+          
+            "count": 45,
+            "stars": 3.441666666666667
+
         },
         {
           "name": "Mama Pat's",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2
+
         },
         {
           "name": "Jinmailang",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.5
+
         },
         {
           "name": "Nongshim",
-          "values": 7
+          
+            "count": 7,
+            "stars": 4.392857142857143
+
         },
         {
           "name": "Trader Joe's",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.625
+
         },
         {
           "name": "Mike's Mighty Good Craft Ramen",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.0833333333333335
+
         },
         {
           "name": "Maruchan",
-          "values": 17
+          
+            "count": 17,
+            "stars": 3.3823529411764706
+
         },
         {
           "name": "Dr. McDougall's",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Gefen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Dream Kitchen",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.5833333333333335
+
         },
         {
           "name": "Crystal Noodle",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0.25
+
         },
         {
           "name": "Right Foods",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1.75
+
         },
         {
           "name": "Sapporo Ichiban",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.125
+
         },
         {
           "name": "Tradition",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.1666666666666665
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.691265060240964,
       "children": [
         {
           "name": "Maruchan",
-          "values": 22
+          
+            "count": 22,
+            "stars": 3.522727272727273
+
         },
         {
           "name": "Vite Ramen",
-          "values": 8
+          
+            "count": 8,
+            "stars": 4.3125
+
         },
         {
           "name": "Ramen Hero",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.6875
+
         },
         {
           "name": "Mama Pat's",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.35
+
         },
         {
           "name": "Yamachan",
-          "values": 12
+          
+            "count": 12,
+            "stars": 4.5
+
         },
         {
           "name": "Nongshim",
-          "values": 14
+          
+            "count": 14,
+            "stars": 4.232142857142857
+
         },
         {
           "name": "Sapporo Ichiban",
-          "values": 8
+          
+            "count": 8,
+            "stars": 4
+
         },
         {
           "name": "Hakubaku",
-          "values": 2
+          
+            "count": 2,
+            "stars": 5
+
         },
         {
           "name": "Myojo",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.4375
+
         },
         {
           "name": "Nissin",
-          "values": 26
+          
+            "count": 26,
+            "stars": 3.673076923076923
+
         },
         {
           "name": "Mike's Mighty Good Craft Ramen",
-          "values": 6
+          
+            "count": 6,
+            "stars": 4.416666666666667
+
         },
         {
           "name": "Nona Lim",
-          "values": 8
+          
+            "count": 8
+
         },
         {
           "name": "Jackpot Teriyaki",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Shirakiku",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3
+
         },
         {
           "name": "Roland",
-          "values": 2
+          
+            "count": 2,
+            "stars": 0.125
+
         },
         {
           "name": "Koyo",
-          "values": 7
+          
+            "count": 7,
+            "stars": 2.0357142857142856
+
         },
         {
           "name": "Fortune",
-          "values": 4
+          
+            "count": 4,
+            "stars": 2.6875
+
         },
         {
           "name": "Annie Chun's",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.7
+
         },
         {
           "name": "Miracle Noodle",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Lotus Foods",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.1666666666666665
+
         },
         {
           "name": "Sakura Noodle",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.9
+
         },
         {
           "name": "Tasty Bite",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.875
+
         },
         {
           "name": "Star Anise Foods",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Tradition",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.25
+
         },
         {
           "name": "S&S",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Sun Noodle",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Thai Kitchen",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.15
+
         },
         {
           "name": "Mexi-Ramen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.5
+
         },
         {
           "name": "Gefen",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.25
+
         },
         {
           "name": "Chikara",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Smack",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1.5
+
         },
         {
           "name": "Westbrae",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0.5
+
         }
       ]
     },
     {
       "name": "Box",
+      "stars": 0.75,
       "children": [
         {
           "name": "Simply Asia",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Lipton",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1.5
+
         }
       ]
     },
     {
       "name": "Restaurant",
+      "stars": 3.5833333333333335,
       "children": [
         {
           "name": "Shibu Ramen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2
+
         },
         {
           "name": "Kizuki Ramen & Izakaya",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Hokkaido Ramen Santouka",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.75
+
         }
       ]
     },
     {
       "name": "Can",
+      "stars": 3.5,
       "children": [
         {
           "name": "Pringles",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         }
       ]
     },
     {
       "name": "Bar",
+      "stars": 5,
       "children": [
         {
           "name": "Komforte Chockolates",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         }
       ]
     }

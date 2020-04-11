@@ -1,33 +1,51 @@
 {
   "name": "Netherlands",
+  "stars": 2.5,
   "children": [
     {
       "name": "Cup",
+      "stars": 1.6875,
       "children": [
         {
           "name": "Conimex",
-          "values": 4
+          
+            "count": 4,
+            "stars": 1.6875
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 2.7708333333333335,
       "children": [
         {
           "name": "Koh Thai",
-          "values": 4
+          
+            "count": 4,
+            "stars": 1.6875
+
         },
         {
           "name": "Unox",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3
+
         },
         {
           "name": "iMee",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.5
+
         },
         {
           "name": "Conimex",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.25
+
         }
       ]
     }

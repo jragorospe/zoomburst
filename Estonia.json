@@ -1,12 +1,17 @@
 {
   "name": "Estonia",
+  "stars": 3.5,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.5,
       "children": [
         {
           "name": "Baltix",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.5
+
         }
       ]
     }

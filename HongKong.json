@@ -1,123 +1,203 @@
 {
   "name": "Hong Kong",
+  "stars": 3.800314465408805,
   "children": [
     {
       "name": "Cup",
+      "stars": 3.9146341463414633,
       "children": [
         {
           "name": "EDO Pack",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1
+          
         },
         {
           "name": "Nissin",
-          "values": 38
+          
+            "count": 38,
+            "stars": 4.026315789473684
+          
         },
         {
           "name": "Doll",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.25
+          
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 3.734848484848485,
       "children": [
         {
           "name": "Sau Tao",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.9166666666666665
+          
         },
         {
           "name": "Doll",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+          
         },
         {
           "name": "Nissin",
-          "values": 11
+          
+            "count": 11,
+            "stars": 3.840909090909091
+          
         },
         {
           "name": "Kamfen",
-          "values": 5
+          
+            "count": 5,
+            "stars": 4.2
+          
         },
         {
           "name": "Fuku",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.375
+          
         },
         {
           "name": "Four Seas",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.1666666666666665
+          
         },
         {
           "name": "Kailo",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.125
+          
         },
         {
           "name": "Sao Tao",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.5833333333333335
+          
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.7740963855421685,
       "children": [
         {
           "name": "EDO Pack",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.875
+          
         },
         {
           "name": "Sau Tao",
-          "values": 11
+          
+            "count": 11,
+            "stars": 3.772727272727273
+          
         },
         {
           "name": "Nissin",
-          "values": 30
+          
+            "count": 30,
+            "stars": 4.366666666666666
+          
         },
         {
           "name": "Kang Shi Fu",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.1875
+          
         },
         {
           "name": "Fuku",
-          "values": 8
+          
+            "count": 8,
+            "stars": 3.5
+          
         },
         {
           "name": "Doll",
-          "values": 13
+          
+            "count": 13,
+            "stars": 3.326923076923077
+          
         },
         {
           "name": "Four Seas",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.3125
+          
         },
         {
           "name": "Mamee",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+          
         },
         {
           "name": "Chewy",
-          "values": 4
+          
+            "count": 4,
+            "stars": 2.1875
+          
         },
         {
           "name": "Knorr",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.125
+          
         },
         {
           "name": "Kamfen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+          
         },
         {
           "name": "Kailo",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+          
         }
       ]
     },
     {
       "name": "Tray",
+      "stars": 3.625,
       "children": [
         {
           "name": "Kamfen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+          
         },
         {
           "name": "Doll",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3
+          
         }
       ]
     }

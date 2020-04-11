@@ -1,16 +1,24 @@
 {
   "name": "Sarawak",
+  "stars": 4,
   "children": [
     {
       "name": "Pack",
+      "stars": 4,
       "children": [
         {
           "name": "Lee Fah Mee",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.6666666666666665
+
         },
         {
           "name": "The Kitchen Food",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.5
+
         }
       ]
     }

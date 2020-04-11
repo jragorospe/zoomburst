@@ -1,16 +1,24 @@
 {
   "name": "Fiji",
+  "stars": 3.875,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.875,
       "children": [
         {
           "name": "Maggi",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.625
+
         },
         {
           "name": "FMF",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.125
+
         }
       ]
     }

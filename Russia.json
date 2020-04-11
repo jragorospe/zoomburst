@@ -1,21 +1,26 @@
 {
   "name": "Russia",
+  "stars": 3.45,
   "children": [
     {
       "name": "Cup",
+      "stars": 3.75,
       "children": [
         {
           "name": "Hite",
-          "values": 1
+          "count": 1,
+          "stars": 3.75
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.375,
       "children": [
         {
           "name": "Big Bon",
-          "values": 4
+          "count": 4,
+          "stars": 3.375
         }
       ]
     }

@@ -1,155 +1,259 @@
 {
   "name": "Indonesia",
+  "stars": 4.1118421052631575,
   "children": [
     {
       "name": "Pack",
+      "stars": 4.125,
       "children": [
         {
           "name": "FitMee",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.25
+
         },
         {
           "name": "Burung Layang Terbang",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Best Wok",
-          "values": 3
+          
+            "count": 3,
+            "stars": 5
+
         },
         {
           "name": "Chitato",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Lemonilo",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Indomie",
-          "values": 47
+          
+            "count": 47,
+            "stars": 4.170212765957447
+
         },
         {
           "name": "Alhami",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.892857142857143
+
         },
         {
           "name": "Maitri",
-          "values": 6
+          
+            "count": 6,
+            "stars": 4.25
+
         },
         {
           "name": "Mikka",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.9166666666666665
+
         },
         {
           "name": "Nissin",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.875
+
         },
         {
           "name": "World O' Noodle",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.75
+
         },
         {
           "name": "Super Bihun",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.9375
+
         },
         {
           "name": "Mi Sedaap",
-          "values": 10
+          
+            "count": 10,
+            "stars": 4.1
+
         },
         {
           "name": "Salam Mie",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.625
+
         },
         {
           "name": "Tropicana Slim",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.75
+
         },
         {
           "name": "La Fonte",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Pop Bihun",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.75
+
         },
         {
           "name": "Healtimie",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.75
+
         },
         {
           "name": "GaGa",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.625
+
         },
         {
           "name": "ABC",
-          "values": 6
+          
+            "count": 6,
+            "stars": 4.5
+
         },
         {
           "name": "President",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "SuperMi",
-          "values": 8
+          
+            "count": 8,
+            "stars": 4.21875
+
         },
         {
           "name": "Sarimi",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.892857142857143
+
         },
         {
           "name": "Cap Atoom Bulan",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3
+
         }
       ]
     },
     {
       "name": "Box",
+      "stars": 4.625,
       "children": [
         {
           "name": "Indomie",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "La Fonte",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+
         }
       ]
     },
     {
       "name": "Tray",
+      "stars": 5,
       "children": [
         {
           "name": "Nissin",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.9404761904761907,
       "children": [
         {
           "name": "Indomie",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.875
+
         },
         {
           "name": "Mie Sedaap",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1.5
+
         },
         {
           "name": "Mi Sedaap",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.375
+
         },
         {
           "name": "ABC",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.9166666666666665
+
         },
         {
           "name": "Eat & Go",
-          "values": 5
+          
+            "count": 5,
+            "stars": 4.2
+
         },
         {
           "name": "GaGa",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.75
+
         }
       ]
     }

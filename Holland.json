@@ -1,12 +1,17 @@
 {
   "name": "Holland",
+  "stars": 3.5625,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.5625,
       "children": [
         {
           "name": "Unox",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.5625
+
         }
       ]
     }

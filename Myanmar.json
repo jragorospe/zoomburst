@@ -1,29 +1,44 @@
 {
   "name": "Myanmar",
+  "stars": 3.9464285714285716,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.909090909090909,
       "children": [
         {
           "name": "MAMA",
-          "values": 8
+          
+            "count": 8,
+            "stars": 3.9375
+
         },
         {
           "name": "Mama",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.8333333333333335
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 4.083333333333333,
       "children": [
         {
           "name": "MAMA",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Mama",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.25
+
         }
       ]
     }

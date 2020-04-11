@@ -1,12 +1,17 @@
 {
   "name": "Peru",
+  "stars": 3.3333333333333335,
   "children": [
     {
       "name": "Pack",
+      "stars": 3.3333333333333335,
       "children": [
         {
           "name": "Aji-no-men",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.3333333333333335
+
         }
       ]
     }

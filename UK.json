@@ -1,87 +1,140 @@
 {
   "name": "UK",
+  "stars": 2.989130434782609,
   "children": [
     {
       "name": "Cup",
+      "stars": 2.9609375,
       "children": [
         {
           "name": "Mr. Lee's Noodles",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.4583333333333335
+
         },
         {
           "name": "Urban Noodle",
-          "values": 5
+          
+            "count": 5,
+            "stars": 2.5
+
         },
         {
           "name": "Kabuto Noodles",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.85
+
         },
         {
           "name": "Tesco",
-          "values": 3
+          
+            "count": 3,
+            "stars": 1.3333333333333333
+
         },
         {
           "name": "Golden Wonder",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+
         },
         {
           "name": "Pot Noodle",
-          "values": 11
+          
+            "count": 11,
+            "stars": 3
+
         },
         {
           "name": "Ko-Lee",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3,
       "children": [
         {
           "name": "Ko-Lee",
-          "values": 9
+          
+            "count": 9,
+            "stars": 3.75
+
         },
         {
           "name": "Sainsbury's",
-          "values": 5
+          
+            "count": 5,
+            "stars": 2.7
+
         },
         {
           "name": "Tiger Tiger",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.375
+
         },
         {
           "name": "Sawadee",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.25
+
         },
         {
           "name": "Batchelors",
-          "values": 14
+          
+            "count": 14,
+            "stars": 2.875
+
         },
         {
           "name": "Tesco",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.25
+
         },
         {
           "name": "Mug Shot",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3
+
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 3.25,
       "children": [
         {
           "name": "Batchelors",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.25
+
         }
       ]
     },
     {
       "name": "Box",
+      "stars": 3.5,
       "children": [
         {
           "name": "Tiger Tiger",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         }
       ]
     }

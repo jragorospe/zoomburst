@@ -1,12 +1,17 @@
 {
   "name": "Spain",
+  "stars": 4.25,
   "children": [
     {
       "name": "Pack",
+      "stars": 4.25,
       "children": [
         {
           "name": "Yatekomo",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.25
+
         }
       ]
     }

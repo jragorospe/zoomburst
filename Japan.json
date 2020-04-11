@@ -1,540 +1,928 @@
 {
   "name": "Japan",
+  "stars": 3.916044776119403,
   "children": [
     {
       "name": "Tray",
+      "stars": 4.010416666666667,
       "children": [
         {
           "name": "Maruchan",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.625
+
         },
         {
           "name": "Peyoung",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.625
+
         },
         {
           "name": "Myojo",
-          "values": 17
+          
+            "count": 17,
+            "stars": 4.338235294117647
+
         },
         {
           "name": "Kinchan",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "New Touch",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.875
+
         },
         {
           "name": "Acecook",
-          "values": 6
+          
+            "count": 6,
+            "stars": 2.5
+
         },
         {
           "name": "Sapporo Ichiban",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.0625
+
         },
         {
           "name": "Daikoku",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.25
+
         },
         {
           "name": "Nissin",
-          "values": 7
+          
+            "count": 7,
+            "stars": 4.857142857142857
+
         },
         {
           "name": "Peyang",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.375
+
         },
         {
           "name": "Ikeda Shoku",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.7241379310344827,
       "children": [
         {
           "name": "Nissin",
-          "values": 46
+          
+            "count": 46,
+            "stars": 4.108695652173913
+
         },
         {
           "name": "Sapporo Ichiban",
-          "values": 16
+          
+            "count": 16,
+            "stars": 3.703125
+
         },
         {
           "name": "Maruchan",
-          "values": 11
+          
+            "count": 11,
+            "stars": 3.227272727272727
+
         },
         {
           "name": "Myojo",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.2857142857142856
+
         },
         {
           "name": "7-Eleven / Nissin",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+
         },
         {
           "name": "Acecook",
-          "values": 20
+          
+            "count": 20,
+            "stars": 3.3
+
         },
         {
           "name": "Kinchan",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4
+
         },
         {
           "name": "Daikoku",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.375
+
         },
         {
           "name": "Nongshim",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "New Touch",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.875
+
         },
         {
           "name": "Samyang Foods",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.25
+
         },
         {
           "name": "Seven-Eleven",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Paldo",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         }
       ]
     },
     {
       "name": "Pack",
+      "stars": 3.865990990990991,
       "children": [
         {
           "name": "Marutai",
-          "values": 8
+          
+            "count": 8,
+            "stars": 4.4375
+
         },
         {
           "name": "Itsuki",
-          "values": 16
+          
+            "count": 16,
+            "stars": 4.203125
+
         },
         {
           "name": "Hikari Miso",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Kenko Foods",
-          "values": 8
+          
+            "count": 8,
+            "stars": 3.40625
+
         },
         {
           "name": "Nongshim",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Tabate",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.75
+
         },
         {
           "name": "Zombear",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Himawari-Shokuhin",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Sanpo",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Kuro Tetsuya",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Mitukura",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Nakaki",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.25
+
         },
         {
           "name": "Sakurai Foods",
-          "values": 11
+          
+            "count": 11,
+            "stars": 4.045454545454546
+
         },
         {
           "name": "Maruchan",
-          "values": 12
+          
+            "count": 12,
+            "stars": 3.9375
+
         },
         {
           "name": "Nagatanien",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.0833333333333335
+
         },
         {
           "name": "Hakubaku",
-          "values": 2
+          
+            "count": 2
+
         },
         {
           "name": "Fukumen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Daikoku",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Itomen",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.9285714285714284
+
         },
         {
           "name": "San-Iku",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.6875
+
         },
         {
           "name": "Sunaoshi",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.75
+
         },
         {
           "name": "New Touch",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Yamamoto",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Myojo",
-          "values": 23
+          
+            "count": 23,
+            "stars": 3.619565217391304
+
         },
         {
           "name": "Myramen",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.75
+
         },
         {
           "name": "Sugakiya",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Nissin",
-          "values": 35
+          
+            "count": 35,
+            "stars": 3.8785714285714286
+
         },
         {
           "name": "Acecook",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Ichiran Ramen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Village Vanguard",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+
         },
         {
           "name": "Nanoblock",
-          "values": 1
+          
+            "count": 1
+
         },
         {
           "name": "Isoyama Shoji",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0
+
         },
         {
           "name": "Ripe'n'Dry",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.1666666666666665
+
         },
         {
           "name": "Fujiwara",
-          "values": 7
+          
+            "count": 7,
+            "stars": 3.9642857142857144
+
         },
         {
           "name": "Sokensha",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Takamori",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Samurai Ramen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Ogasawara",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.75
+
         },
         {
           "name": "Tokyo Noodle",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.4375
+
         },
         {
           "name": "Ajinatori",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3
+
         },
         {
           "name": "Tokushima Seifun",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.25
+
         },
         {
           "name": "Higashimaru",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Kuriki",
-          "values": 3
+          
+            "count": 3,
+            "stars": 4.416666666666667
+
         },
         {
           "name": "Daraz",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3
+
         },
         {
           "name": "Nakaya Shouten",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Torishi",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Ishimaru",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Mitoku",
-          "values": 1
+          
+            "count": 1,
+            "stars": 0.25
+
         },
         {
           "name": "Unzen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 1
+
         },
         {
           "name": "Oyatsu",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.625
+
         },
         {
           "name": "Men-Sunaoshi",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.75
+
         },
         {
           "name": "Takamori Kosan",
-          "values": 14
+          
+            "count": 14,
+            "stars": 4.160714285714286
+
         },
         {
           "name": "Kimura",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Sapporo Ichiban",
-          "values": 7
+          
+            "count": 7,
+            "stars": 4.035714285714286
+
         },
         {
           "name": "Kumamoto",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.5
+
         },
         {
           "name": "Sugakiya Foods",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         },
         {
           "name": "Tablemark",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.75
+
         },
         {
           "name": "Nagao Noodle",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+
         },
         {
           "name": "Yamamori",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.625
+
         },
         {
           "name": "Shirakiku",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.3125
+
         },
         {
           "name": "Higashi",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Sakurai",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 3.983125,
       "children": [
         {
           "name": "Nissin",
-          "values": 52
+          
+            "count": 52,
+            "stars": 4.447115384615385
+
         },
         {
           "name": "Maruchan",
-          "values": 28
+          
+            "count": 28,
+            "stars": 3.924107142857143
+
         },
         {
           "name": "Acecook",
-          "values": 13
+          
+            "count": 13,
+            "stars": 3.2884615384615383
+
         },
         {
           "name": "Peyoung",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Sapporo Ichiban",
-          "values": 13
+          
+            "count": 13,
+            "stars": 3.673076923076923
+
         },
         {
           "name": "Myojo",
-          "values": 22
+          
+            "count": 22,
+            "stars": 3.6931818181818183
+
         },
         {
           "name": "New Touch",
-          "values": 11
+          
+            "count": 11,
+            "stars": 4.113636363636363
+
         },
         {
           "name": "Yamamoto",
-          "values": 6
+          
+            "count": 6,
+            "stars": 4.125
+
         },
         {
           "name": "Daikoku",
-          "values": 6
+          
+            "count": 6,
+            "stars": 3.8333333333333335
+
         },
         {
           "name": "Itsuki",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4
+
         },
         {
           "name": "Kinchan",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Sunaoshi",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.625
+
         },
         {
           "name": "Itomen",
-          "values": 3
+          
+            "count": 3,
+            "stars": 2.9166666666666665
+
         },
         {
           "name": "Sugakiya",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "My Friend",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "TableMark",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.125
+
         },
         {
           "name": "Marutai",
-          "values": 5
+          
+            "count": 5,
+            "stars": 4.1
+
         },
         {
           "name": "Ikeda Shoku",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Tablemark",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.25
+
         },
         {
           "name": "Menraku",
-          "values": 8
+          
+            "count": 8,
+            "stars": 4.25
+
         },
         {
           "name": "Sanpo",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Tokushima Seifun",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.375
+
         },
         {
           "name": "Seven & I",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Sugakiya Foods",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Yamadai",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.25
+
         },
         {
           "name": "Tokachimen Koubou",
-          "values": 1
+          
+            "count": 1,
+            "stars": 2.25
+
         },
         {
           "name": "Sanrio",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+
         },
         {
           "name": "Sakurai Foods",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.125
+
         },
         {
           "name": "Goku Uma",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.75
+
         },
         {
           "name": "Fuji Mengyo",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "JFC",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.125
+
         },
         {
           "name": "Shirakiku",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.6666666666666665
+
         },
         {
           "name": "Sanyo Foods",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         }
       ]
     },
     {
       "name": "Box",
+      "stars": 4.823529411764706,
       "children": [
         {
           "name": "Kubota",
-          "values": 3
+          
+            "count": 3,
+            "stars": 5
+
         },
         {
           "name": "Jinanbo",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Hide Chan",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+
         },
         {
           "name": "Kikusui",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.75
+
         },
         {
           "name": "Hokkaido Furano Ramen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+
         },
         {
           "name": "Ebisoba Ichigen",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "Island Foods",
-          "values": 5
+          
+            "count": 5,
+            "stars": 4.8
+
         },
         {
           "name": "Nagatanien",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+
         },
         {
           "name": "MyKuali",
-          "values": 2
+          
+            "count": 2,
+            "stars": 5
+
         }
       ]
     }

@@ -1,16 +1,24 @@
 {
   "name": "Cambodia",
+  "stars": 4.2,
   "children": [
     {
       "name": "Pack",
+      "stars": 4.2,
       "children": [
         {
           "name": "MAMA",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+
         },
         {
           "name": "Mama",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.375
+
         }
       ]
     }

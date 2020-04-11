@@ -1,215 +1,364 @@
 {
   "name": "Malaysia",
+  "stars": 4.166137566137566,
   "children": [
     {
       "name": "Pack",
+      "stars": 4.177891156462585,
       "children": [
         {
           "name": "Pan Mee",
-          "values": 3
+          
+            "count": 3,
+            "stars": 4.583333333333333
+          
         },
         {
           "name": "Mykuali",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.875
+          
         },
         {
           "name": "Red Chef",
-          "values": 5
+          
+            "count": 5,
+            "stars": 5
+          
         },
         {
           "name": "Mamee / Shinsegae",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.5
+          
         },
         {
           "name": "Maggi",
-          "values": 8
+          
+            "count": 8,
+            "stars": 3.76875
+          
         },
         {
           "name": "Uncle Sun",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.75
+          
         },
         {
           "name": "Mamee-Shinsegae",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4.25
+          
         },
         {
           "name": "World O Noodle",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4
+          
         },
         {
           "name": "Ped Chef",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+          
         },
         {
           "name": "MyKuali",
-          "values": 18
+          
+            "count": 18,
+            "stars": 4.944444444444445
+          
         },
         {
           "name": "E-Zee",
-          "values": 3
+          
+            "count": 3,
+            "stars": 4.25
+          
         },
         {
           "name": "Cintan",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.3
+          
         },
         {
           "name": "Nyor Nyar",
-          "values": 2
+          
+            "count": 2,
+            "stars": 5
+          
         },
         {
           "name": "CarJEN",
-          "values": 7
+          
+            "count": 7,
+            "stars": 4.928571428571429
+          
         },
         {
           "name": "A1",
-          "values": 3
+          
+            "count": 3,
+            "stars": 3.0833333333333335
+          
         },
         {
           "name": "MyOri",
-          "values": 5
+          
+            "count": 5,
+            "stars": 5
+          
         },
         {
           "name": "Ibumie",
-          "values": 10
+          
+            "count": 10,
+            "stars": 3.75
+          
         },
         {
           "name": "Pama",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.75
+          
         },
         {
           "name": "Vit's",
-          "values": 13
+          
+            "count": 13,
+            "stars": 4.211538461538462
+          
         },
         {
           "name": "Mamee",
-          "values": 19
+          
+            "count": 19,
+            "stars": 3.960526315789474
+          
         },
         {
           "name": "Aroi",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.5
+          
         },
         {
           "name": "Hao Way",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.125
+          
         },
         {
           "name": "Premiere",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.875
+          
         },
         {
           "name": "Ah Lai",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.75
+          
         },
         {
           "name": "Ruski",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+          
         },
         {
           "name": "The Bridge",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+          
         },
         {
           "name": "Mi E-Zee",
-          "values": 5
+          
+            "count": 5,
+            "stars": 3.6875
+          
         },
         {
           "name": "E-mi",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.75
+          
         },
         {
           "name": "J.J.",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.875
+          
         },
         {
           "name": "Curry Prince",
-          "values": 1
+          
+            "count": 1,
+            "stars": 4
+          
         },
         {
           "name": "Econsave",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.5
+          
         },
         {
           "name": "Nanyang Chef",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.875
+          
         },
         {
           "name": "Adabi",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.8125
+          
         },
         {
           "name": "Saji",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.125
+          
         },
         {
           "name": "Sawadee",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.5
+          
         },
         {
           "name": "Daddy",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+          
         }
       ]
     },
     {
       "name": "Cup",
+      "stars": 3.81,
       "children": [
         {
           "name": "MyKuali",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.8125
+          
         },
         {
           "name": "Mamee Shinsegae",
-          "values": 1
+          
+            "count": 1,
+            "stars": 3.75
+          
         },
         {
           "name": "Super",
-          "values": 7
+          
+            "count": 7,
+            "stars": 2.9642857142857144
+          
         },
         {
           "name": "Mamee",
-          "values": 9
+          
+            "count": 9,
+            "stars": 3.9722222222222223
+          
         },
         {
           "name": "Maggi",
-          "values": 2
+          
+            "count": 2,
+            "stars": 4.125
+          
         },
         {
           "name": "Pama",
-          "values": 2
+          
+            "count": 2,
+            "stars": 3.75
+          
         }
       ]
     },
     {
       "name": "Box",
+      "stars": 4.875,
       "children": [
         {
           "name": "Way Premium Foods",
-          "values": 6
+          
+            "count": 6,
+            "stars": 4.833333333333333
+          
         },
         {
           "name": "The Ramen Rater Select",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+          
         },
         {
           "name": "MyKuali",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+          
         }
       ]
     },
     {
       "name": "Bowl",
+      "stars": 4.333333333333333,
       "children": [
         {
           "name": "MyKuali",
-          "values": 4
+          
+            "count": 4,
+            "stars": 4.9375
+          
         },
         {
           "name": "ORee Garden",
-          "values": 1
+          
+            "count": 1,
+            "stars": 5
+          
         },
         {
           "name": "Hao Way",
-          "values": 4
+          
+            "count": 4,
+            "stars": 3.5625
+          
         }
       ]
     }

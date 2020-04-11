@@ -1,12 +1,17 @@
 {
   "name": "Nigeria",
+  "stars": 2.375,
   "children": [
     {
       "name": "Pack",
+      "stars": 2.375,
       "children": [
         {
           "name": "Indomie",
-          "values": 2
+          
+            "count": 2,
+            "stars": 2.375
+
         }
       ]
     }
